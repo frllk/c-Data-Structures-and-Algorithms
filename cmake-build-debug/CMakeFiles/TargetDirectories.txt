@@ -1,0 +1,12 @@
+E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/CMakeFiles/c_Data_Structures_and_Algorithms.dir
+E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/CMakeFiles/1.test.dir
+E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/CMakeFiles/1.test.cpp.dir
+E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/CMakeFiles/edit_cache.dir
+E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/CMakeFiles/rebuild_cache.dir
+E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/list/CMakeFiles/1.linklist.dir
+E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/list/CMakeFiles/2.linklist.dir
+E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/list/CMakeFiles/3.linklist.dir
+E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/list/CMakeFiles/edit_cache.dir
+E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/list/CMakeFiles/rebuild_cache.dir

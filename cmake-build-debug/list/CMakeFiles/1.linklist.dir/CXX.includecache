@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/CODE/C/c-Data-Structures-and-Algorithms/list/1.linklist.cpp
+cstdlib
+-
+queue
+-
+stack
+-
+algorithm
+-
+string
+-
+map
+-
+set
+-
+vector
+-
+
