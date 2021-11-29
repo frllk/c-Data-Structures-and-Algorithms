@@ -5,21 +5,21 @@
 		<Option title="base"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\base\;CMake Files\list\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\DataStructure01\;CMake Files\base\;CMake Files\list\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base"/>
+				<Option working_dir="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="1.test">
-				<Option output="E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/1.test.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base"/>
+				<Option output="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/1.test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -29,15 +29,15 @@
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 1.test"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 1.test"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="1.test/fast">
-				<Option output="E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/1.test.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base"/>
+				<Option output="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/1.test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -47,15 +47,15 @@
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 1.test/fast"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 1.test/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="1.test.cpp">
-				<Option output="E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/1.test.cpp.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base"/>
+				<Option output="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/1.test.cpp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -65,15 +65,15 @@
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 1.test.cpp"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 1.test.cpp"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="1.test.cpp/fast">
-				<Option output="E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/1.test.cpp.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base"/>
+				<Option output="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/1.test.cpp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -83,26 +83,29 @@
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 1.test.cpp/fast"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/CODE/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 1.test.cpp/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/CODE/C/c-Data-Structures-and-Algorithms/base/1.test.c">
+		<Unit filename="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/base/1.test.c">
 			<Option target="1.test"/>
 		</Unit>
-		<Unit filename="E:/CODE/C/c-Data-Structures-and-Algorithms/base/1.test.cpp">
+		<Unit filename="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/base/1.test.cpp">
 			<Option target="1.test.cpp"/>
 		</Unit>
-		<Unit filename="E:/CODE/C/c-Data-Structures-and-Algorithms/CMakeLists.txt">
+		<Unit filename="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="E:/CODE/C/c-Data-Structures-and-Algorithms/base/CMakeLists.txt">
+		<Unit filename="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/DataStructure01/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\DataStructure01\"/>
+		</Unit>
+		<Unit filename="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/base/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\base\"/>
 		</Unit>
-		<Unit filename="E:/CODE/C/c-Data-Structures-and-Algorithms/list/CMakeLists.txt">
+		<Unit filename="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/list/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\list\"/>
 		</Unit>
 	</Project>

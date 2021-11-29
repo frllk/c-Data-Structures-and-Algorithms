@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-E:/CODE/C/c-Data-Structures-and-Algorithms/main.c
+E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/DataStructure01/1.vector.c
 stdio.h
+-
+stdlib.h
+-
+time.h
 -
 

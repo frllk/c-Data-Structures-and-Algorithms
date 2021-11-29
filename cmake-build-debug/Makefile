@@ -66,10 +66,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\CODE\C\c-Data-Structures-and-Algorithms
+CMAKE_SOURCE_DIR = E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\CODE\C\c-Data-Structures-and-Algorithms\cmake-build-debug
+CMAKE_BINARY_DIR = E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,9 +98,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\CODE\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles E:\CODE\C\c-Data-Structures-and-Algorithms\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\CODE\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -206,6 +206,19 @@ c_Data_Structures_and_Algorithms/fast:
 	$(MAKE) $(MAKESILENT) -f list\CMakeFiles\3.linklist.dir\build.make list/CMakeFiles/3.linklist.dir/build
 .PHONY : 3.linklist/fast
 
+#=============================================================================
+# Target rules for targets named 1.vector
+
+# Build rule for target.
+1.vector: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1.vector
+.PHONY : 1.vector
+
+# fast build rule for target.
+1.vector/fast:
+	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\1.vector.dir\build.make DataStructure01/CMakeFiles/1.vector.dir/build
+.PHONY : 1.vector/fast
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -244,6 +257,7 @@ help:
 	@echo ... 1.linklist
 	@echo ... 1.test
 	@echo ... 1.test.cpp
+	@echo ... 1.vector
 	@echo ... 2.linklist
 	@echo ... 3.linklist
 	@echo ... c_Data_Structures_and_Algorithms
