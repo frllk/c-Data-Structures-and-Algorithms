@@ -181,6 +181,58 @@ c_Data_Structures_and_Algorithms/fast:
 .PHONY : 3.test.c/fast
 
 #=============================================================================
+# Target rules for targets named 4.test.c
+
+# Build rule for target.
+4.test.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 4.test.c
+.PHONY : 4.test.c
+
+# fast build rule for target.
+4.test.c/fast:
+	$(MAKE) $(MAKESILENT) -f base\CMakeFiles\4.test.c.dir\build.make base/CMakeFiles/4.test.c.dir/build
+.PHONY : 4.test.c/fast
+
+#=============================================================================
+# Target rules for targets named 5.test.c
+
+# Build rule for target.
+5.test.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 5.test.c
+.PHONY : 5.test.c
+
+# fast build rule for target.
+5.test.c/fast:
+	$(MAKE) $(MAKESILENT) -f base\CMakeFiles\5.test.c.dir\build.make base/CMakeFiles/5.test.c.dir/build
+.PHONY : 5.test.c/fast
+
+#=============================================================================
+# Target rules for targets named 6.test.c
+
+# Build rule for target.
+6.test.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 6.test.c
+.PHONY : 6.test.c
+
+# fast build rule for target.
+6.test.c/fast:
+	$(MAKE) $(MAKESILENT) -f base\CMakeFiles\6.test.c.dir\build.make base/CMakeFiles/6.test.c.dir/build
+.PHONY : 6.test.c/fast
+
+#=============================================================================
+# Target rules for targets named 7.test.c
+
+# Build rule for target.
+7.test.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 7.test.c
+.PHONY : 7.test.c
+
+# fast build rule for target.
+7.test.c/fast:
+	$(MAKE) $(MAKESILENT) -f base\CMakeFiles\7.test.c.dir\build.make base/CMakeFiles/7.test.c.dir/build
+.PHONY : 7.test.c/fast
+
+#=============================================================================
 # Target rules for targets named 1.linklist
 
 # Build rule for target.
@@ -272,6 +324,10 @@ help:
 	@echo ... 2.test.c
 	@echo ... 3.linklist
 	@echo ... 3.test.c
+	@echo ... 4.test.c
+	@echo ... 5.test.c
+	@echo ... 6.test.c
+	@echo ... 7.test.c
 	@echo ... c_Data_Structures_and_Algorithms
 	@echo ... main.obj
 	@echo ... main.i

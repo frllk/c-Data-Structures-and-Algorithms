@@ -171,6 +171,62 @@ base/CMakeFiles/3.test.c.dir/rule:
 	cd /d D:\BaiduNetdiskWorkspace\C\c-data-structures-and-algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\3.test.c.dir\build.make base/CMakeFiles/3.test.c.dir/build
 .PHONY : 3.test.c/fast
 
+# Convenience name for target.
+base/CMakeFiles/4.test.c.dir/rule:
+	cd /d D:\BaiduNetdiskWorkspace\C\c-data-structures-and-algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 base/CMakeFiles/4.test.c.dir/rule
+.PHONY : base/CMakeFiles/4.test.c.dir/rule
+
+# Convenience name for target.
+4.test.c: base/CMakeFiles/4.test.c.dir/rule
+.PHONY : 4.test.c
+
+# fast build rule for target.
+4.test.c/fast:
+	cd /d D:\BaiduNetdiskWorkspace\C\c-data-structures-and-algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\4.test.c.dir\build.make base/CMakeFiles/4.test.c.dir/build
+.PHONY : 4.test.c/fast
+
+# Convenience name for target.
+base/CMakeFiles/5.test.c.dir/rule:
+	cd /d D:\BaiduNetdiskWorkspace\C\c-data-structures-and-algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 base/CMakeFiles/5.test.c.dir/rule
+.PHONY : base/CMakeFiles/5.test.c.dir/rule
+
+# Convenience name for target.
+5.test.c: base/CMakeFiles/5.test.c.dir/rule
+.PHONY : 5.test.c
+
+# fast build rule for target.
+5.test.c/fast:
+	cd /d D:\BaiduNetdiskWorkspace\C\c-data-structures-and-algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\5.test.c.dir\build.make base/CMakeFiles/5.test.c.dir/build
+.PHONY : 5.test.c/fast
+
+# Convenience name for target.
+base/CMakeFiles/6.test.c.dir/rule:
+	cd /d D:\BaiduNetdiskWorkspace\C\c-data-structures-and-algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 base/CMakeFiles/6.test.c.dir/rule
+.PHONY : base/CMakeFiles/6.test.c.dir/rule
+
+# Convenience name for target.
+6.test.c: base/CMakeFiles/6.test.c.dir/rule
+.PHONY : 6.test.c
+
+# fast build rule for target.
+6.test.c/fast:
+	cd /d D:\BaiduNetdiskWorkspace\C\c-data-structures-and-algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\6.test.c.dir\build.make base/CMakeFiles/6.test.c.dir/build
+.PHONY : 6.test.c/fast
+
+# Convenience name for target.
+base/CMakeFiles/7.test.c.dir/rule:
+	cd /d D:\BaiduNetdiskWorkspace\C\c-data-structures-and-algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 base/CMakeFiles/7.test.c.dir/rule
+.PHONY : base/CMakeFiles/7.test.c.dir/rule
+
+# Convenience name for target.
+7.test.c: base/CMakeFiles/7.test.c.dir/rule
+.PHONY : 7.test.c
+
+# fast build rule for target.
+7.test.c/fast:
+	cd /d D:\BaiduNetdiskWorkspace\C\c-data-structures-and-algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\7.test.c.dir\build.make base/CMakeFiles/7.test.c.dir/build
+.PHONY : 7.test.c/fast
+
 1.test.obj: 1.test.c.obj
 .PHONY : 1.test.obj
 
@@ -267,6 +323,102 @@ base/CMakeFiles/3.test.c.dir/rule:
 	cd /d D:\BaiduNetdiskWorkspace\C\c-data-structures-and-algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\3.test.c.dir\build.make base/CMakeFiles/3.test.c.dir/3.test.c.s
 .PHONY : 3.test.c.s
 
+4.test.obj: 4.test.c.obj
+.PHONY : 4.test.obj
+
+# target to build an object file
+4.test.c.obj:
+	cd /d D:\BaiduNetdiskWorkspace\C\c-data-structures-and-algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\4.test.c.dir\build.make base/CMakeFiles/4.test.c.dir/4.test.c.obj
+.PHONY : 4.test.c.obj
+
+4.test.i: 4.test.c.i
+.PHONY : 4.test.i
+
+# target to preprocess a source file
+4.test.c.i:
+	cd /d D:\BaiduNetdiskWorkspace\C\c-data-structures-and-algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\4.test.c.dir\build.make base/CMakeFiles/4.test.c.dir/4.test.c.i
+.PHONY : 4.test.c.i
+
+4.test.s: 4.test.c.s
+.PHONY : 4.test.s
+
+# target to generate assembly for a file
+4.test.c.s:
+	cd /d D:\BaiduNetdiskWorkspace\C\c-data-structures-and-algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\4.test.c.dir\build.make base/CMakeFiles/4.test.c.dir/4.test.c.s
+.PHONY : 4.test.c.s
+
+5.test.obj: 5.test.c.obj
+.PHONY : 5.test.obj
+
+# target to build an object file
+5.test.c.obj:
+	cd /d D:\BaiduNetdiskWorkspace\C\c-data-structures-and-algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\5.test.c.dir\build.make base/CMakeFiles/5.test.c.dir/5.test.c.obj
+.PHONY : 5.test.c.obj
+
+5.test.i: 5.test.c.i
+.PHONY : 5.test.i
+
+# target to preprocess a source file
+5.test.c.i:
+	cd /d D:\BaiduNetdiskWorkspace\C\c-data-structures-and-algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\5.test.c.dir\build.make base/CMakeFiles/5.test.c.dir/5.test.c.i
+.PHONY : 5.test.c.i
+
+5.test.s: 5.test.c.s
+.PHONY : 5.test.s
+
+# target to generate assembly for a file
+5.test.c.s:
+	cd /d D:\BaiduNetdiskWorkspace\C\c-data-structures-and-algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\5.test.c.dir\build.make base/CMakeFiles/5.test.c.dir/5.test.c.s
+.PHONY : 5.test.c.s
+
+6.test.obj: 6.test.c.obj
+.PHONY : 6.test.obj
+
+# target to build an object file
+6.test.c.obj:
+	cd /d D:\BaiduNetdiskWorkspace\C\c-data-structures-and-algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\6.test.c.dir\build.make base/CMakeFiles/6.test.c.dir/6.test.c.obj
+.PHONY : 6.test.c.obj
+
+6.test.i: 6.test.c.i
+.PHONY : 6.test.i
+
+# target to preprocess a source file
+6.test.c.i:
+	cd /d D:\BaiduNetdiskWorkspace\C\c-data-structures-and-algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\6.test.c.dir\build.make base/CMakeFiles/6.test.c.dir/6.test.c.i
+.PHONY : 6.test.c.i
+
+6.test.s: 6.test.c.s
+.PHONY : 6.test.s
+
+# target to generate assembly for a file
+6.test.c.s:
+	cd /d D:\BaiduNetdiskWorkspace\C\c-data-structures-and-algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\6.test.c.dir\build.make base/CMakeFiles/6.test.c.dir/6.test.c.s
+.PHONY : 6.test.c.s
+
+7.test.obj: 7.test.c.obj
+.PHONY : 7.test.obj
+
+# target to build an object file
+7.test.c.obj:
+	cd /d D:\BaiduNetdiskWorkspace\C\c-data-structures-and-algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\7.test.c.dir\build.make base/CMakeFiles/7.test.c.dir/7.test.c.obj
+.PHONY : 7.test.c.obj
+
+7.test.i: 7.test.c.i
+.PHONY : 7.test.i
+
+# target to preprocess a source file
+7.test.c.i:
+	cd /d D:\BaiduNetdiskWorkspace\C\c-data-structures-and-algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\7.test.c.dir\build.make base/CMakeFiles/7.test.c.dir/7.test.c.i
+.PHONY : 7.test.c.i
+
+7.test.s: 7.test.c.s
+.PHONY : 7.test.s
+
+# target to generate assembly for a file
+7.test.c.s:
+	cd /d D:\BaiduNetdiskWorkspace\C\c-data-structures-and-algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f base\CMakeFiles\7.test.c.dir\build.make base/CMakeFiles/7.test.c.dir/7.test.c.s
+.PHONY : 7.test.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -279,6 +431,10 @@ help:
 	@echo ... 1.test.cpp
 	@echo ... 2.test.c
 	@echo ... 3.test.c
+	@echo ... 4.test.c
+	@echo ... 5.test.c
+	@echo ... 6.test.c
+	@echo ... 7.test.c
 	@echo ... 1.test.obj
 	@echo ... 1.test.i
 	@echo ... 1.test.s
@@ -291,6 +447,18 @@ help:
 	@echo ... 3.test.obj
 	@echo ... 3.test.i
 	@echo ... 3.test.s
+	@echo ... 4.test.obj
+	@echo ... 4.test.i
+	@echo ... 4.test.s
+	@echo ... 5.test.obj
+	@echo ... 5.test.i
+	@echo ... 5.test.s
+	@echo ... 6.test.obj
+	@echo ... 6.test.i
+	@echo ... 6.test.s
+	@echo ... 7.test.obj
+	@echo ... 7.test.i
+	@echo ... 7.test.s
 .PHONY : help
 
 
