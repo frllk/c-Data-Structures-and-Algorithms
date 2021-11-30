@@ -1,4 +1,4 @@
-# Install script for directory: E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/list
+# Install script for directory: D:/BaiduNetdiskWorkspace/C/c-data-structures-and-algorithms/list
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

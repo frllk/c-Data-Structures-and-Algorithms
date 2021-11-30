@@ -25,8 +25,9 @@ yarn-error.log*
 *.sw*
 .eslintcache
 /cmake-build-debug/
-#/cmake-build-debug/base/
-#/cmake-build-debug/CMakeFiles/
-#/cmake-build-debug/DataStructure01/
-#/cmake-build-debug/list/
-#/cmake-build-debug/Testing/
+/cmake-build-debug/base/
+/cmake-build-debug/CMakeFiles/
+/cmake-build-debug/DataStructure01/
+/cmake-build-debug/list/
+/cmake-build-debug/Testing/
+*.exe

@@ -1,4 +1,4 @@
-# Install script for directory: E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/DataStructure01
+# Install script for directory: D:/BaiduNetdiskWorkspace/C/c-data-structures-and-algorithms/DataStructure01
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,4 +1,4 @@
-# Install script for directory: E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms
+# Install script for directory: D:/BaiduNetdiskWorkspace/C/c-data-structures-and-algorithms
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,17 +39,17 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/base/cmake_install.cmake")
+  include("D:/BaiduNetdiskWorkspace/C/c-data-structures-and-algorithms/cmake-build-debug/base/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/list/cmake_install.cmake")
+  include("D:/BaiduNetdiskWorkspace/C/c-data-structures-and-algorithms/cmake-build-debug/list/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/DataStructure01/cmake_install.cmake")
+  include("D:/BaiduNetdiskWorkspace/C/c-data-structures-and-algorithms/cmake-build-debug/DataStructure01/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -60,5 +60,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/BaiduNetdiskWorkspace/C/c-data-structures-and-algorithms/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
