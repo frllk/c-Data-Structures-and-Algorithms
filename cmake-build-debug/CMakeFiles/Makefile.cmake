@@ -9,6 +9,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
   "../DataStructure01/CMakeLists.txt"
+  "../ModelTest/CMakeLists.txt"
   "../base/CMakeLists.txt"
   "CMakeFiles/3.20.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeCXXCompiler.cmake"
@@ -53,6 +54,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "base/CMakeFiles/CMakeDirectoryInformation.cmake"
   "list/CMakeFiles/CMakeDirectoryInformation.cmake"
   "DataStructure01/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "ModelTest/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -70,4 +72,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "list/CMakeFiles/2.linklist.dir/DependInfo.cmake"
   "list/CMakeFiles/3.linklist.dir/DependInfo.cmake"
   "DataStructure01/CMakeFiles/1.vector.dir/DependInfo.cmake"
+  "ModelTest/CMakeFiles/test1-1.c.dir/DependInfo.cmake"
+  "ModelTest/CMakeFiles/test1-2.c.dir/DependInfo.cmake"
   )

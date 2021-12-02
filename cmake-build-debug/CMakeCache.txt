@@ -254,6 +254,12 @@ DataStructure01_BINARY_DIR:STATIC=D:/BaiduNetdiskWorkspace/C/c-data-structures-a
 DataStructure01_SOURCE_DIR:STATIC=D:/BaiduNetdiskWorkspace/C/c-data-structures-and-algorithms/DataStructure01
 
 //Value Computed by CMake
+ModelTest_BINARY_DIR:STATIC=D:/BaiduNetdiskWorkspace/C/c-data-structures-and-algorithms/cmake-build-debug/ModelTest
+
+//Value Computed by CMake
+ModelTest_SOURCE_DIR:STATIC=D:/BaiduNetdiskWorkspace/C/c-data-structures-and-algorithms/ModelTest
+
+//Value Computed by CMake
 base_BINARY_DIR:STATIC=D:/BaiduNetdiskWorkspace/C/c-data-structures-and-algorithms/cmake-build-debug/base
 
 //Value Computed by CMake
@@ -378,7 +384,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

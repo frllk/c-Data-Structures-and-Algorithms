@@ -284,6 +284,32 @@ c_Data_Structures_and_Algorithms/fast:
 	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\1.vector.dir\build.make DataStructure01/CMakeFiles/1.vector.dir/build
 .PHONY : 1.vector/fast
 
+#=============================================================================
+# Target rules for targets named test1-1.c
+
+# Build rule for target.
+test1-1.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test1-1.c
+.PHONY : test1-1.c
+
+# fast build rule for target.
+test1-1.c/fast:
+	$(MAKE) $(MAKESILENT) -f ModelTest\CMakeFiles\test1-1.c.dir\build.make ModelTest/CMakeFiles/test1-1.c.dir/build
+.PHONY : test1-1.c/fast
+
+#=============================================================================
+# Target rules for targets named test1-2.c
+
+# Build rule for target.
+test1-2.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test1-2.c
+.PHONY : test1-2.c
+
+# fast build rule for target.
+test1-2.c/fast:
+	$(MAKE) $(MAKESILENT) -f ModelTest\CMakeFiles\test1-2.c.dir\build.make ModelTest/CMakeFiles/test1-2.c.dir/build
+.PHONY : test1-2.c/fast
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -329,6 +355,8 @@ help:
 	@echo ... 6.test.c
 	@echo ... 7.test.c
 	@echo ... c_Data_Structures_and_Algorithms
+	@echo ... test1-1.c
+	@echo ... test1-2.c
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

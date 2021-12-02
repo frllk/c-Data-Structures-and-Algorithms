@@ -5,7 +5,7 @@
 		<Option title="base"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\DataStructure01\;CMake Files\base\;CMake Files\list\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\DataStructure01\;CMake Files\ModelTest\;CMake Files\base\;CMake Files\list\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="D:/BaiduNetdiskWorkspace/C/c-data-structures-and-algorithms/cmake-build-debug/base"/>
@@ -335,6 +335,9 @@
 		</Unit>
 		<Unit filename="D:/BaiduNetdiskWorkspace/C/c-data-structures-and-algorithms/DataStructure01/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\DataStructure01\"/>
+		</Unit>
+		<Unit filename="D:/BaiduNetdiskWorkspace/C/c-data-structures-and-algorithms/ModelTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ModelTest\"/>
 		</Unit>
 		<Unit filename="D:/BaiduNetdiskWorkspace/C/c-data-structures-and-algorithms/base/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\base\"/>

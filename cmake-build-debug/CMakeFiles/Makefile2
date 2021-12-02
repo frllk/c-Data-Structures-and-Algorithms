@@ -66,12 +66,14 @@ all: CMakeFiles/c_Data_Structures_and_Algorithms.dir/all
 all: base/all
 all: list/all
 all: DataStructure01/all
+all: ModelTest/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: base/preinstall
 preinstall: list/preinstall
 preinstall: DataStructure01/preinstall
+preinstall: ModelTest/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -79,6 +81,7 @@ clean: CMakeFiles/c_Data_Structures_and_Algorithms.dir/clean
 clean: base/clean
 clean: list/clean
 clean: DataStructure01/clean
+clean: ModelTest/clean
 .PHONY : clean
 
 #=============================================================================
@@ -95,6 +98,23 @@ DataStructure01/preinstall:
 # Recursive "clean" directory target.
 DataStructure01/clean: DataStructure01/CMakeFiles/1.vector.dir/clean
 .PHONY : DataStructure01/clean
+
+#=============================================================================
+# Directory level rules for directory ModelTest
+
+# Recursive "all" directory target.
+ModelTest/all: ModelTest/CMakeFiles/test1-1.c.dir/all
+ModelTest/all: ModelTest/CMakeFiles/test1-2.c.dir/all
+.PHONY : ModelTest/all
+
+# Recursive "preinstall" directory target.
+ModelTest/preinstall:
+.PHONY : ModelTest/preinstall
+
+# Recursive "clean" directory target.
+ModelTest/clean: ModelTest/CMakeFiles/test1-1.c.dir/clean
+ModelTest/clean: ModelTest/CMakeFiles/test1-2.c.dir/clean
+.PHONY : ModelTest/clean
 
 #=============================================================================
 # Directory level rules for directory base
@@ -481,6 +501,58 @@ DataStructure01/CMakeFiles/1.vector.dir/rule: cmake_check_build_system
 DataStructure01/CMakeFiles/1.vector.dir/clean:
 	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\1.vector.dir\build.make DataStructure01/CMakeFiles/1.vector.dir/clean
 .PHONY : DataStructure01/CMakeFiles/1.vector.dir/clean
+
+#=============================================================================
+# Target rules for target ModelTest/CMakeFiles/test1-1.c.dir
+
+# All Build rule for target.
+ModelTest/CMakeFiles/test1-1.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f ModelTest\CMakeFiles\test1-1.c.dir\build.make ModelTest/CMakeFiles/test1-1.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f ModelTest\CMakeFiles\test1-1.c.dir\build.make ModelTest/CMakeFiles/test1-1.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\BaiduNetdiskWorkspace\C\c-data-structures-and-algorithms\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target test1-1.c"
+.PHONY : ModelTest/CMakeFiles/test1-1.c.dir/all
+
+# Build rule for subdir invocation for target.
+ModelTest/CMakeFiles/test1-1.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\BaiduNetdiskWorkspace\C\c-data-structures-and-algorithms\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ModelTest/CMakeFiles/test1-1.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\BaiduNetdiskWorkspace\C\c-data-structures-and-algorithms\cmake-build-debug\CMakeFiles 0
+.PHONY : ModelTest/CMakeFiles/test1-1.c.dir/rule
+
+# Convenience name for target.
+test1-1.c: ModelTest/CMakeFiles/test1-1.c.dir/rule
+.PHONY : test1-1.c
+
+# clean rule for target.
+ModelTest/CMakeFiles/test1-1.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f ModelTest\CMakeFiles\test1-1.c.dir\build.make ModelTest/CMakeFiles/test1-1.c.dir/clean
+.PHONY : ModelTest/CMakeFiles/test1-1.c.dir/clean
+
+#=============================================================================
+# Target rules for target ModelTest/CMakeFiles/test1-2.c.dir
+
+# All Build rule for target.
+ModelTest/CMakeFiles/test1-2.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f ModelTest\CMakeFiles\test1-2.c.dir\build.make ModelTest/CMakeFiles/test1-2.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f ModelTest\CMakeFiles\test1-2.c.dir\build.make ModelTest/CMakeFiles/test1-2.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\BaiduNetdiskWorkspace\C\c-data-structures-and-algorithms\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target test1-2.c"
+.PHONY : ModelTest/CMakeFiles/test1-2.c.dir/all
+
+# Build rule for subdir invocation for target.
+ModelTest/CMakeFiles/test1-2.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\BaiduNetdiskWorkspace\C\c-data-structures-and-algorithms\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ModelTest/CMakeFiles/test1-2.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\BaiduNetdiskWorkspace\C\c-data-structures-and-algorithms\cmake-build-debug\CMakeFiles 0
+.PHONY : ModelTest/CMakeFiles/test1-2.c.dir/rule
+
+# Convenience name for target.
+test1-2.c: ModelTest/CMakeFiles/test1-2.c.dir/rule
+.PHONY : test1-2.c
+
+# clean rule for target.
+ModelTest/CMakeFiles/test1-2.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f ModelTest\CMakeFiles\test1-2.c.dir\build.make ModelTest/CMakeFiles/test1-2.c.dir/clean
+.PHONY : ModelTest/CMakeFiles/test1-2.c.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
