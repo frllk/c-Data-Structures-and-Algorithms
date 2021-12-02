@@ -3,4 +3,4 @@ project(DataStructure01)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(1.vector 1.vector.c)
+add_executable(DataStructure01-1.vector 1.vector.c)
