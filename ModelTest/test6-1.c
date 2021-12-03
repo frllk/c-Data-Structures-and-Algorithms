@@ -1,7 +1,32 @@
 #include <stdio.h>
+#include <string.h>
+#define  N 4
 
 int main() {
-//    ä¸ƒã€ ç¨‹åºè®¾è®¡é¢˜ï¼ˆ æœ¬é¢˜ 15 åˆ†ï¼‰ï¼ˆ ä¸­ï¼‰
-//    ã€ è§£æžã€‘ä½¿ç”¨ä¸€ä¸ªæŒ‡é’ˆæ•°ç»„ p æŒ‡å‘å„ä¸ªå­—ç¬¦ä¸²åŽï¼Œ å°±å¯ä»¥ä½¿ç”¨å†’æ³¡æŽ’åºæ–¹æ³•å¯¹å…¶æŽ’åºäº†ã€‚
+    /*
+     * Æß¡¢ ³ÌÐòÉè¼ÆÌâ£¨ ±¾Ìâ 15 ·Ö£©£¨ ÖÐ£©
+     * ÊäÈëÈô¸É¸ö×Ö·û´®£¬Ê¹ÓÃÖ¸ÏòÖ¸ÕëµÄÖ¸Õë½«ÕâÐ©×Ö·û´®´ÓÐ¡µ½´óÅÅÁÐºóÒÀ´ÎÊä³ö¡£
+     * ¡¾ ½âÎö¡¿Ê¹ÓÃÒ»¸öÖ¸ÕëÊý×é p Ö¸Ïò¸÷¸ö×Ö·û´®ºó£¬ ¾Í¿ÉÒÔÊ¹ÓÃÃ°ÅÝÅÅÐò·½·¨¶ÔÆäÅÅÐòÁË¡£
+     * */
+    char str[N][20];
+    char *p[N], **pp = p, *temp;
+    int i, j;
+    for (i = 0; i < N; i++) {
+        p[i] = str[i];
+        printf("µÚ%d¸ö´®£º", i + 1);
+        scanf("%s", p[i]);
+    }
+    for (i = 0; i < N - 1; i++) {
+        for (j = 0; j < N - i - 1; j++) {
+            if (strcmp(p[j], pp[j + 1]) > 0) {
+                temp = pp[j];
+                pp[j] = pp[j + 1];
+                pp[j + 1] = temp;
+            }
+        }
+    }
+    for (i = 0; i < N; i++)
+        printf("%s", pp[i]);
+    printf("\n");
     return 0;
 }
