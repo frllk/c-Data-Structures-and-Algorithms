@@ -5,7 +5,7 @@
 		<Option title="DataStructure01"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\DataStructure01\;CMake Files\ModelTest\;CMake Files\base\;CMake Files\list\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\DataStructure01\;CMake Files\IinearIist\;CMake Files\ModelTest\;CMake Files\base\;CMake Files\list\;CMake Files\exercise\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/DataStructure01"/>
@@ -63,6 +63,9 @@
 		<Unit filename="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/DataStructure01/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\DataStructure01\"/>
 		</Unit>
+		<Unit filename="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/IinearIist/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\IinearIist\"/>
+		</Unit>
 		<Unit filename="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/ModelTest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\ModelTest\"/>
 		</Unit>
@@ -71,6 +74,9 @@
 		</Unit>
 		<Unit filename="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/list/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\list\"/>
+		</Unit>
+		<Unit filename="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/exercise/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\exercise\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

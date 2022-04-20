@@ -57,10 +57,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = E:\BaiduNetdiskDownload\CLion\CLion_2021.1.2_Protable\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = E:\BaiduNetdiskDownload\CLion\CLion_2021.1.2_Protable\bin\cmake\win\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -77,7 +77,7 @@ CMAKE_BINARY_DIR = E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\c
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	E:\BaiduNetdiskDownload\CLion\CLion_2021.1.2_Protable\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -88,7 +88,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	E:\BaiduNetdiskDownload\CLion\CLion_2021.1.2_Protable\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -127,19 +127,6 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named c_Data_Structures_and_Algorithms
-
-# Build rule for target.
-c_Data_Structures_and_Algorithms: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 c_Data_Structures_and_Algorithms
-.PHONY : c_Data_Structures_and_Algorithms
-
-# fast build rule for target.
-c_Data_Structures_and_Algorithms/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_Data_Structures_and_Algorithms.dir\build.make CMakeFiles/c_Data_Structures_and_Algorithms.dir/build
-.PHONY : c_Data_Structures_and_Algorithms/fast
 
 #=============================================================================
 # Target rules for targets named base-1.test.cpp
@@ -283,6 +270,19 @@ list-3.linklist: cmake_check_build_system
 list-3.linklist/fast:
 	$(MAKE) $(MAKESILENT) -f list\CMakeFiles\list-3.linklist.dir\build.make list/CMakeFiles/list-3.linklist.dir/build
 .PHONY : list-3.linklist/fast
+
+#=============================================================================
+# Target rules for targets named 1.c
+
+# Build rule for target.
+1.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1.c
+.PHONY : 1.c
+
+# fast build rule for target.
+1.c/fast:
+	$(MAKE) $(MAKESILENT) -f IinearIist\CMakeFiles\1.c.dir\build.make IinearIist/CMakeFiles/1.c.dir/build
+.PHONY : 1.c/fast
 
 #=============================================================================
 # Target rules for targets named DataStructure01-1.vector
@@ -453,32 +453,96 @@ modelTest-test6-2.c/fast:
 	$(MAKE) $(MAKESILENT) -f ModelTest\CMakeFiles\modelTest-test6-2.c.dir\build.make ModelTest/CMakeFiles/modelTest-test6-2.c.dir/build
 .PHONY : modelTest-test6-2.c/fast
 
-main.obj: main.c.obj
+#=============================================================================
+# Target rules for targets named exercise1.cpp
 
-.PHONY : main.obj
+# Build rule for target.
+exercise1.cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 exercise1.cpp
+.PHONY : exercise1.cpp
 
-# target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_Data_Structures_and_Algorithms.dir\build.make CMakeFiles/c_Data_Structures_and_Algorithms.dir/main.c.obj
-.PHONY : main.c.obj
+# fast build rule for target.
+exercise1.cpp/fast:
+	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise1.cpp.dir\build.make exercise/CMakeFiles/exercise1.cpp.dir/build
+.PHONY : exercise1.cpp/fast
 
-main.i: main.c.i
+#=============================================================================
+# Target rules for targets named exercise-array.c
 
-.PHONY : main.i
+# Build rule for target.
+exercise-array.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 exercise-array.c
+.PHONY : exercise-array.c
 
-# target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_Data_Structures_and_Algorithms.dir\build.make CMakeFiles/c_Data_Structures_and_Algorithms.dir/main.c.i
-.PHONY : main.c.i
+# fast build rule for target.
+exercise-array.c/fast:
+	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise-array.c.dir\build.make exercise/CMakeFiles/exercise-array.c.dir/build
+.PHONY : exercise-array.c/fast
 
-main.s: main.c.s
+#=============================================================================
+# Target rules for targets named exercise2.c
 
-.PHONY : main.s
+# Build rule for target.
+exercise2.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 exercise2.c
+.PHONY : exercise2.c
 
-# target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_Data_Structures_and_Algorithms.dir\build.make CMakeFiles/c_Data_Structures_and_Algorithms.dir/main.c.s
-.PHONY : main.c.s
+# fast build rule for target.
+exercise2.c/fast:
+	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise2.c.dir\build.make exercise/CMakeFiles/exercise2.c.dir/build
+.PHONY : exercise2.c/fast
+
+#=============================================================================
+# Target rules for targets named exercise-case-structure.c
+
+# Build rule for target.
+exercise-case-structure.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 exercise-case-structure.c
+.PHONY : exercise-case-structure.c
+
+# fast build rule for target.
+exercise-case-structure.c/fast:
+	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise-case-structure.c.dir\build.make exercise/CMakeFiles/exercise-case-structure.c.dir/build
+.PHONY : exercise-case-structure.c/fast
+
+#=============================================================================
+# Target rules for targets named exercise-leap.c
+
+# Build rule for target.
+exercise-leap.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 exercise-leap.c
+.PHONY : exercise-leap.c
+
+# fast build rule for target.
+exercise-leap.c/fast:
+	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise-leap.c.dir\build.make exercise/CMakeFiles/exercise-leap.c.dir/build
+.PHONY : exercise-leap.c/fast
+
+#=============================================================================
+# Target rules for targets named exercise-funtion.c
+
+# Build rule for target.
+exercise-funtion.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 exercise-funtion.c
+.PHONY : exercise-funtion.c
+
+# fast build rule for target.
+exercise-funtion.c/fast:
+	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise-funtion.c.dir\build.make exercise/CMakeFiles/exercise-funtion.c.dir/build
+.PHONY : exercise-funtion.c/fast
+
+#=============================================================================
+# Target rules for targets named exercise-circulation.c
+
+# Build rule for target.
+exercise-circulation.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 exercise-circulation.c
+.PHONY : exercise-circulation.c
+
+# fast build rule for target.
+exercise-circulation.c/fast:
+	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise-circulation.c.dir\build.make exercise/CMakeFiles/exercise-circulation.c.dir/build
+.PHONY : exercise-circulation.c/fast
 
 # Help Target
 help:
@@ -488,6 +552,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... 1.c
 	@echo ... 2.test.c
 	@echo ... DataStructure01-1.vector
 	@echo ... base-1.test.c
@@ -497,7 +562,13 @@ help:
 	@echo ... base-5.test.c
 	@echo ... base-6.test.c
 	@echo ... base-7.test.c
-	@echo ... c_Data_Structures_and_Algorithms
+	@echo ... exercise-array.c
+	@echo ... exercise-case-structure.c
+	@echo ... exercise-circulation.c
+	@echo ... exercise-funtion.c
+	@echo ... exercise-leap.c
+	@echo ... exercise1.cpp
+	@echo ... exercise2.c
 	@echo ... list-1.linklist
 	@echo ... list-2.linklist
 	@echo ... list-3.linklist
@@ -513,9 +584,6 @@ help:
 	@echo ... modelTest-test5-2.c
 	@echo ... modelTest-test6-1.c
 	@echo ... modelTest-test6-2.c
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
 .PHONY : help
 
 
