@@ -467,6 +467,19 @@ exercise1.cpp/fast:
 .PHONY : exercise1.cpp/fast
 
 #=============================================================================
+# Target rules for targets named exercise-function.c
+
+# Build rule for target.
+exercise-function.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 exercise-function.c
+.PHONY : exercise-function.c
+
+# fast build rule for target.
+exercise-function.c/fast:
+	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise-function.c.dir\build.make exercise/CMakeFiles/exercise-function.c.dir/build
+.PHONY : exercise-function.c/fast
+
+#=============================================================================
 # Target rules for targets named exercise-array.c
 
 # Build rule for target.
@@ -491,6 +504,19 @@ exercise2.c: cmake_check_build_system
 exercise2.c/fast:
 	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise2.c.dir\build.make exercise/CMakeFiles/exercise2.c.dir/build
 .PHONY : exercise2.c/fast
+
+#=============================================================================
+# Target rules for targets named exercise-function-file1.c
+
+# Build rule for target.
+exercise-function-file1.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 exercise-function-file1.c
+.PHONY : exercise-function-file1.c
+
+# fast build rule for target.
+exercise-function-file1.c/fast:
+	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise-function-file1.c.dir\build.make exercise/CMakeFiles/exercise-function-file1.c.dir/build
+.PHONY : exercise-function-file1.c/fast
 
 #=============================================================================
 # Target rules for targets named exercise-case-structure.c
@@ -519,19 +545,6 @@ exercise-leap.c/fast:
 .PHONY : exercise-leap.c/fast
 
 #=============================================================================
-# Target rules for targets named exercise-funtion.c
-
-# Build rule for target.
-exercise-funtion.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 exercise-funtion.c
-.PHONY : exercise-funtion.c
-
-# fast build rule for target.
-exercise-funtion.c/fast:
-	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise-funtion.c.dir\build.make exercise/CMakeFiles/exercise-funtion.c.dir/build
-.PHONY : exercise-funtion.c/fast
-
-#=============================================================================
 # Target rules for targets named exercise-circulation.c
 
 # Build rule for target.
@@ -543,6 +556,32 @@ exercise-circulation.c: cmake_check_build_system
 exercise-circulation.c/fast:
 	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise-circulation.c.dir\build.make exercise/CMakeFiles/exercise-circulation.c.dir/build
 .PHONY : exercise-circulation.c/fast
+
+#=============================================================================
+# Target rules for targets named exercise-function-file2.c
+
+# Build rule for target.
+exercise-function-file2.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 exercise-function-file2.c
+.PHONY : exercise-function-file2.c
+
+# fast build rule for target.
+exercise-function-file2.c/fast:
+	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise-function-file2.c.dir\build.make exercise/CMakeFiles/exercise-function-file2.c.dir/build
+.PHONY : exercise-function-file2.c/fast
+
+#=============================================================================
+# Target rules for targets named exercise-function-file3.c
+
+# Build rule for target.
+exercise-function-file3.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 exercise-function-file3.c
+.PHONY : exercise-function-file3.c
+
+# fast build rule for target.
+exercise-function-file3.c/fast:
+	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise-function-file3.c.dir\build.make exercise/CMakeFiles/exercise-function-file3.c.dir/build
+.PHONY : exercise-function-file3.c/fast
 
 # Help Target
 help:
@@ -565,7 +604,10 @@ help:
 	@echo ... exercise-array.c
 	@echo ... exercise-case-structure.c
 	@echo ... exercise-circulation.c
-	@echo ... exercise-funtion.c
+	@echo ... exercise-function-file1.c
+	@echo ... exercise-function-file2.c
+	@echo ... exercise-function-file3.c
+	@echo ... exercise-function.c
 	@echo ... exercise-leap.c
 	@echo ... exercise1.cpp
 	@echo ... exercise2.c

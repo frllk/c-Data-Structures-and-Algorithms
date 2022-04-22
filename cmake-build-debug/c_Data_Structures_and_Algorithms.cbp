@@ -973,6 +973,42 @@
 					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="exercise-function.c">
+				<Option output="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/exercise-function.c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 exercise-function.c"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise-function.c/fast">
+				<Option output="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/exercise-function.c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 exercise-function.c/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="exercise-array.c">
 				<Option output="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/exercise-array.c.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise"/>
@@ -1040,6 +1076,42 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 exercise2.c/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise-function-file1.c">
+				<Option output="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/exercise-function-file1.c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 exercise-function-file1.c"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise-function-file1.c/fast">
+				<Option output="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/exercise-function-file1.c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 exercise-function-file1.c/fast"/>
 					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1117,42 +1189,6 @@
 					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="exercise-funtion.c">
-				<Option output="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/exercise-funtion.c.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 exercise-funtion.c"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="exercise-funtion.c/fast">
-				<Option output="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/exercise-funtion.c.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 exercise-funtion.c/fast"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="exercise-circulation.c">
 				<Option output="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/exercise-circulation.c.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise"/>
@@ -1184,6 +1220,78 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 exercise-circulation.c/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise-function-file2.c">
+				<Option output="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/exercise-function-file2.c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 exercise-function-file2.c"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise-function-file2.c/fast">
+				<Option output="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/exercise-function-file2.c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 exercise-function-file2.c/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise-function-file3.c">
+				<Option output="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/exercise-function-file3.c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 exercise-function-file3.c"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise-function-file3.c/fast">
+				<Option output="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/exercise-function-file3.c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 exercise-function-file3.c/fast"/>
 					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1268,8 +1376,20 @@
 		<Unit filename="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/exercise/exercise-case-structure.c">
 			<Option target="exercise-case-structure.c"/>
 		</Unit>
-		<Unit filename="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/exercise/exercise-funtion.c">
-			<Option target="exercise-funtion.c"/>
+		<Unit filename="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/exercise/exercise-function-file1.c">
+			<Option target="exercise-function.c"/>
+			<Option target="exercise-function-file1.c"/>
+		</Unit>
+		<Unit filename="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/exercise/exercise-function-file2.c">
+			<Option target="exercise-function.c"/>
+			<Option target="exercise-function-file2.c"/>
+		</Unit>
+		<Unit filename="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/exercise/exercise-function-file3.c">
+			<Option target="exercise-function.c"/>
+			<Option target="exercise-function-file3.c"/>
+		</Unit>
+		<Unit filename="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/exercise/exercise-function.c">
+			<Option target="exercise-function.c"/>
 		</Unit>
 		<Unit filename="E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/exercise/exercise1.c">
 			<Option target="exercise1.cpp"/>
