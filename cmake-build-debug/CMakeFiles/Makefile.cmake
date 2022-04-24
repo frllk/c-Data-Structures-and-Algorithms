@@ -98,4 +98,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "exercise/CMakeFiles/exercise-circulation.c.dir/DependInfo.cmake"
   "exercise/CMakeFiles/exercise-function-file2.c.dir/DependInfo.cmake"
   "exercise/CMakeFiles/exercise-function-file3.c.dir/DependInfo.cmake"
+  "exercise/CMakeFiles/exercise-pointer.c.dir/DependInfo.cmake"
   )

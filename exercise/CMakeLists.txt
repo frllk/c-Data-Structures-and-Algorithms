@@ -13,3 +13,4 @@ add_executable(exercise-function.c exercise-function.c exercise-function-file1.c
 add_executable(exercise-function-file1.c exercise-function-file1.c)
 add_executable(exercise-function-file2.c exercise-function-file2.c)
 add_executable(exercise-function-file3.c exercise-function-file3.c)
+add_executable(exercise-pointer.c exercise-pointer.c)

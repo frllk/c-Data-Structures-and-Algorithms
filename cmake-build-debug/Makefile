@@ -583,6 +583,19 @@ exercise-function-file3.c/fast:
 	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise-function-file3.c.dir\build.make exercise/CMakeFiles/exercise-function-file3.c.dir/build
 .PHONY : exercise-function-file3.c/fast
 
+#=============================================================================
+# Target rules for targets named exercise-pointer.c
+
+# Build rule for target.
+exercise-pointer.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 exercise-pointer.c
+.PHONY : exercise-pointer.c
+
+# fast build rule for target.
+exercise-pointer.c/fast:
+	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise-pointer.c.dir\build.make exercise/CMakeFiles/exercise-pointer.c.dir/build
+.PHONY : exercise-pointer.c/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -609,6 +622,7 @@ help:
 	@echo ... exercise-function-file3.c
 	@echo ... exercise-function.c
 	@echo ... exercise-leap.c
+	@echo ... exercise-pointer.c
 	@echo ... exercise1.cpp
 	@echo ... exercise2.c
 	@echo ... list-1.linklist

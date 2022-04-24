@@ -45,5 +45,6 @@ E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/ex
 E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/CMakeFiles/exercise-circulation.c.dir
 E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/CMakeFiles/exercise-function-file2.c.dir
 E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/CMakeFiles/exercise-function-file3.c.dir
+E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/CMakeFiles/exercise-pointer.c.dir
 E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/CMakeFiles/edit_cache.dir
 E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/exercise/CMakeFiles/rebuild_cache.dir
