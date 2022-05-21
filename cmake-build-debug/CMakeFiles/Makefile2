@@ -104,7 +104,12 @@ clean: exercise/clean
 # Directory level rules for directory DataStructure01
 
 # Recursive "all" directory target.
-DataStructure01/all: DataStructure01/CMakeFiles/DataStructure01-1.vector.dir/all
+DataStructure01/all: DataStructure01/CMakeFiles/ds-1.vector.dir/all
+DataStructure01/all: DataStructure01/CMakeFiles/ds-time.c.dir/all
+DataStructure01/all: DataStructure01/CMakeFiles/ds-euler-1.c.dir/all
+DataStructure01/all: DataStructure01/CMakeFiles/ds-euler-2.c.dir/all
+DataStructure01/all: DataStructure01/CMakeFiles/ds-euler-4.c.dir/all
+DataStructure01/all: DataStructure01/CMakeFiles/ds-euler-8.c.dir/all
 
 .PHONY : DataStructure01/all
 
@@ -114,7 +119,12 @@ DataStructure01/preinstall:
 .PHONY : DataStructure01/preinstall
 
 # Recursive "clean" directory target.
-DataStructure01/clean: DataStructure01/CMakeFiles/DataStructure01-1.vector.dir/clean
+DataStructure01/clean: DataStructure01/CMakeFiles/ds-1.vector.dir/clean
+DataStructure01/clean: DataStructure01/CMakeFiles/ds-time.c.dir/clean
+DataStructure01/clean: DataStructure01/CMakeFiles/ds-euler-1.c.dir/clean
+DataStructure01/clean: DataStructure01/CMakeFiles/ds-euler-2.c.dir/clean
+DataStructure01/clean: DataStructure01/CMakeFiles/ds-euler-4.c.dir/clean
+DataStructure01/clean: DataStructure01/CMakeFiles/ds-euler-8.c.dir/clean
 
 .PHONY : DataStructure01/clean
 
@@ -275,7 +285,7 @@ list/clean: list/CMakeFiles/list-3.linklist.dir/clean
 base/CMakeFiles/base-1.test.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f base\CMakeFiles\base-1.test.cpp.dir\build.make base/CMakeFiles/base-1.test.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f base\CMakeFiles\base-1.test.cpp.dir\build.make base/CMakeFiles/base-1.test.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target base-1.test.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target base-1.test.cpp"
 .PHONY : base/CMakeFiles/base-1.test.cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -302,7 +312,7 @@ base/CMakeFiles/base-1.test.cpp.dir/clean:
 base/CMakeFiles/base-1.test.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f base\CMakeFiles\base-1.test.c.dir\build.make base/CMakeFiles/base-1.test.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f base\CMakeFiles\base-1.test.c.dir\build.make base/CMakeFiles/base-1.test.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target base-1.test.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target base-1.test.c"
 .PHONY : base/CMakeFiles/base-1.test.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -356,7 +366,7 @@ base/CMakeFiles/2.test.c.dir/clean:
 base/CMakeFiles/base-3.test.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f base\CMakeFiles\base-3.test.c.dir\build.make base/CMakeFiles/base-3.test.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f base\CMakeFiles\base-3.test.c.dir\build.make base/CMakeFiles/base-3.test.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target base-3.test.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target base-3.test.c"
 .PHONY : base/CMakeFiles/base-3.test.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -383,7 +393,7 @@ base/CMakeFiles/base-3.test.c.dir/clean:
 base/CMakeFiles/base-4.test.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f base\CMakeFiles\base-4.test.c.dir\build.make base/CMakeFiles/base-4.test.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f base\CMakeFiles\base-4.test.c.dir\build.make base/CMakeFiles/base-4.test.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target base-4.test.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target base-4.test.c"
 .PHONY : base/CMakeFiles/base-4.test.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -410,7 +420,7 @@ base/CMakeFiles/base-4.test.c.dir/clean:
 base/CMakeFiles/base-5.test.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f base\CMakeFiles\base-5.test.c.dir\build.make base/CMakeFiles/base-5.test.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f base\CMakeFiles\base-5.test.c.dir\build.make base/CMakeFiles/base-5.test.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target base-5.test.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target base-5.test.c"
 .PHONY : base/CMakeFiles/base-5.test.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -437,7 +447,7 @@ base/CMakeFiles/base-5.test.c.dir/clean:
 base/CMakeFiles/base-6.test.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f base\CMakeFiles\base-6.test.c.dir\build.make base/CMakeFiles/base-6.test.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f base\CMakeFiles\base-6.test.c.dir\build.make base/CMakeFiles/base-6.test.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target base-6.test.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target base-6.test.c"
 .PHONY : base/CMakeFiles/base-6.test.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -464,7 +474,7 @@ base/CMakeFiles/base-6.test.c.dir/clean:
 base/CMakeFiles/base-7.test.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f base\CMakeFiles\base-7.test.c.dir\build.make base/CMakeFiles/base-7.test.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f base\CMakeFiles\base-7.test.c.dir\build.make base/CMakeFiles/base-7.test.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target base-7.test.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target base-7.test.c"
 .PHONY : base/CMakeFiles/base-7.test.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -491,7 +501,7 @@ base/CMakeFiles/base-7.test.c.dir/clean:
 list/CMakeFiles/list-1.linklist.dir/all:
 	$(MAKE) $(MAKESILENT) -f list\CMakeFiles\list-1.linklist.dir\build.make list/CMakeFiles/list-1.linklist.dir/depend
 	$(MAKE) $(MAKESILENT) -f list\CMakeFiles\list-1.linklist.dir\build.make list/CMakeFiles/list-1.linklist.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=46,47 "Built target list-1.linklist"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=56,57 "Built target list-1.linklist"
 .PHONY : list/CMakeFiles/list-1.linklist.dir/all
 
 # Build rule for subdir invocation for target.
@@ -518,7 +528,7 @@ list/CMakeFiles/list-1.linklist.dir/clean:
 list/CMakeFiles/list-2.linklist.dir/all:
 	$(MAKE) $(MAKESILENT) -f list\CMakeFiles\list-2.linklist.dir\build.make list/CMakeFiles/list-2.linklist.dir/depend
 	$(MAKE) $(MAKESILENT) -f list\CMakeFiles\list-2.linklist.dir\build.make list/CMakeFiles/list-2.linklist.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=48,49 "Built target list-2.linklist"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=58,59 "Built target list-2.linklist"
 .PHONY : list/CMakeFiles/list-2.linklist.dir/all
 
 # Build rule for subdir invocation for target.
@@ -545,7 +555,7 @@ list/CMakeFiles/list-2.linklist.dir/clean:
 list/CMakeFiles/list-3.linklist.dir/all:
 	$(MAKE) $(MAKESILENT) -f list\CMakeFiles\list-3.linklist.dir\build.make list/CMakeFiles/list-3.linklist.dir/depend
 	$(MAKE) $(MAKESILENT) -f list\CMakeFiles\list-3.linklist.dir\build.make list/CMakeFiles/list-3.linklist.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=50,51 "Built target list-3.linklist"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=60,61 "Built target list-3.linklist"
 .PHONY : list/CMakeFiles/list-3.linklist.dir/all
 
 # Build rule for subdir invocation for target.
@@ -593,31 +603,166 @@ IinearIist/CMakeFiles/1.c.dir/clean:
 .PHONY : IinearIist/CMakeFiles/1.c.dir/clean
 
 #=============================================================================
-# Target rules for target DataStructure01/CMakeFiles/DataStructure01-1.vector.dir
+# Target rules for target DataStructure01/CMakeFiles/ds-1.vector.dir
 
 # All Build rule for target.
-DataStructure01/CMakeFiles/DataStructure01-1.vector.dir/all:
-	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\DataStructure01-1.vector.dir\build.make DataStructure01/CMakeFiles/DataStructure01-1.vector.dir/depend
-	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\DataStructure01-1.vector.dir\build.make DataStructure01/CMakeFiles/DataStructure01-1.vector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target DataStructure01-1.vector"
-.PHONY : DataStructure01/CMakeFiles/DataStructure01-1.vector.dir/all
+DataStructure01/CMakeFiles/ds-1.vector.dir/all:
+	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-1.vector.dir\build.make DataStructure01/CMakeFiles/ds-1.vector.dir/depend
+	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-1.vector.dir\build.make DataStructure01/CMakeFiles/ds-1.vector.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target ds-1.vector"
+.PHONY : DataStructure01/CMakeFiles/ds-1.vector.dir/all
 
 # Build rule for subdir invocation for target.
-DataStructure01/CMakeFiles/DataStructure01-1.vector.dir/rule: cmake_check_build_system
+DataStructure01/CMakeFiles/ds-1.vector.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStructure01/CMakeFiles/DataStructure01-1.vector.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStructure01/CMakeFiles/ds-1.vector.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles 0
-.PHONY : DataStructure01/CMakeFiles/DataStructure01-1.vector.dir/rule
+.PHONY : DataStructure01/CMakeFiles/ds-1.vector.dir/rule
 
 # Convenience name for target.
-DataStructure01-1.vector: DataStructure01/CMakeFiles/DataStructure01-1.vector.dir/rule
+ds-1.vector: DataStructure01/CMakeFiles/ds-1.vector.dir/rule
 
-.PHONY : DataStructure01-1.vector
+.PHONY : ds-1.vector
 
 # clean rule for target.
-DataStructure01/CMakeFiles/DataStructure01-1.vector.dir/clean:
-	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\DataStructure01-1.vector.dir\build.make DataStructure01/CMakeFiles/DataStructure01-1.vector.dir/clean
-.PHONY : DataStructure01/CMakeFiles/DataStructure01-1.vector.dir/clean
+DataStructure01/CMakeFiles/ds-1.vector.dir/clean:
+	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-1.vector.dir\build.make DataStructure01/CMakeFiles/ds-1.vector.dir/clean
+.PHONY : DataStructure01/CMakeFiles/ds-1.vector.dir/clean
+
+#=============================================================================
+# Target rules for target DataStructure01/CMakeFiles/ds-time.c.dir
+
+# All Build rule for target.
+DataStructure01/CMakeFiles/ds-time.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-time.c.dir\build.make DataStructure01/CMakeFiles/ds-time.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-time.c.dir\build.make DataStructure01/CMakeFiles/ds-time.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target ds-time.c"
+.PHONY : DataStructure01/CMakeFiles/ds-time.c.dir/all
+
+# Build rule for subdir invocation for target.
+DataStructure01/CMakeFiles/ds-time.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStructure01/CMakeFiles/ds-time.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles 0
+.PHONY : DataStructure01/CMakeFiles/ds-time.c.dir/rule
+
+# Convenience name for target.
+ds-time.c: DataStructure01/CMakeFiles/ds-time.c.dir/rule
+
+.PHONY : ds-time.c
+
+# clean rule for target.
+DataStructure01/CMakeFiles/ds-time.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-time.c.dir\build.make DataStructure01/CMakeFiles/ds-time.c.dir/clean
+.PHONY : DataStructure01/CMakeFiles/ds-time.c.dir/clean
+
+#=============================================================================
+# Target rules for target DataStructure01/CMakeFiles/ds-euler-1.c.dir
+
+# All Build rule for target.
+DataStructure01/CMakeFiles/ds-euler-1.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-euler-1.c.dir\build.make DataStructure01/CMakeFiles/ds-euler-1.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-euler-1.c.dir\build.make DataStructure01/CMakeFiles/ds-euler-1.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target ds-euler-1.c"
+.PHONY : DataStructure01/CMakeFiles/ds-euler-1.c.dir/all
+
+# Build rule for subdir invocation for target.
+DataStructure01/CMakeFiles/ds-euler-1.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStructure01/CMakeFiles/ds-euler-1.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles 0
+.PHONY : DataStructure01/CMakeFiles/ds-euler-1.c.dir/rule
+
+# Convenience name for target.
+ds-euler-1.c: DataStructure01/CMakeFiles/ds-euler-1.c.dir/rule
+
+.PHONY : ds-euler-1.c
+
+# clean rule for target.
+DataStructure01/CMakeFiles/ds-euler-1.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-euler-1.c.dir\build.make DataStructure01/CMakeFiles/ds-euler-1.c.dir/clean
+.PHONY : DataStructure01/CMakeFiles/ds-euler-1.c.dir/clean
+
+#=============================================================================
+# Target rules for target DataStructure01/CMakeFiles/ds-euler-2.c.dir
+
+# All Build rule for target.
+DataStructure01/CMakeFiles/ds-euler-2.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-euler-2.c.dir\build.make DataStructure01/CMakeFiles/ds-euler-2.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-euler-2.c.dir\build.make DataStructure01/CMakeFiles/ds-euler-2.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target ds-euler-2.c"
+.PHONY : DataStructure01/CMakeFiles/ds-euler-2.c.dir/all
+
+# Build rule for subdir invocation for target.
+DataStructure01/CMakeFiles/ds-euler-2.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStructure01/CMakeFiles/ds-euler-2.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles 0
+.PHONY : DataStructure01/CMakeFiles/ds-euler-2.c.dir/rule
+
+# Convenience name for target.
+ds-euler-2.c: DataStructure01/CMakeFiles/ds-euler-2.c.dir/rule
+
+.PHONY : ds-euler-2.c
+
+# clean rule for target.
+DataStructure01/CMakeFiles/ds-euler-2.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-euler-2.c.dir\build.make DataStructure01/CMakeFiles/ds-euler-2.c.dir/clean
+.PHONY : DataStructure01/CMakeFiles/ds-euler-2.c.dir/clean
+
+#=============================================================================
+# Target rules for target DataStructure01/CMakeFiles/ds-euler-4.c.dir
+
+# All Build rule for target.
+DataStructure01/CMakeFiles/ds-euler-4.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-euler-4.c.dir\build.make DataStructure01/CMakeFiles/ds-euler-4.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-euler-4.c.dir\build.make DataStructure01/CMakeFiles/ds-euler-4.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target ds-euler-4.c"
+.PHONY : DataStructure01/CMakeFiles/ds-euler-4.c.dir/all
+
+# Build rule for subdir invocation for target.
+DataStructure01/CMakeFiles/ds-euler-4.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStructure01/CMakeFiles/ds-euler-4.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles 0
+.PHONY : DataStructure01/CMakeFiles/ds-euler-4.c.dir/rule
+
+# Convenience name for target.
+ds-euler-4.c: DataStructure01/CMakeFiles/ds-euler-4.c.dir/rule
+
+.PHONY : ds-euler-4.c
+
+# clean rule for target.
+DataStructure01/CMakeFiles/ds-euler-4.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-euler-4.c.dir\build.make DataStructure01/CMakeFiles/ds-euler-4.c.dir/clean
+.PHONY : DataStructure01/CMakeFiles/ds-euler-4.c.dir/clean
+
+#=============================================================================
+# Target rules for target DataStructure01/CMakeFiles/ds-euler-8.c.dir
+
+# All Build rule for target.
+DataStructure01/CMakeFiles/ds-euler-8.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-euler-8.c.dir\build.make DataStructure01/CMakeFiles/ds-euler-8.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-euler-8.c.dir\build.make DataStructure01/CMakeFiles/ds-euler-8.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target ds-euler-8.c"
+.PHONY : DataStructure01/CMakeFiles/ds-euler-8.c.dir/all
+
+# Build rule for subdir invocation for target.
+DataStructure01/CMakeFiles/ds-euler-8.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStructure01/CMakeFiles/ds-euler-8.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles 0
+.PHONY : DataStructure01/CMakeFiles/ds-euler-8.c.dir/rule
+
+# Convenience name for target.
+ds-euler-8.c: DataStructure01/CMakeFiles/ds-euler-8.c.dir/rule
+
+.PHONY : ds-euler-8.c
+
+# clean rule for target.
+DataStructure01/CMakeFiles/ds-euler-8.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-euler-8.c.dir\build.make DataStructure01/CMakeFiles/ds-euler-8.c.dir/clean
+.PHONY : DataStructure01/CMakeFiles/ds-euler-8.c.dir/clean
 
 #=============================================================================
 # Target rules for target ModelTest/CMakeFiles/modelTest-test2-2.c.dir
@@ -626,7 +771,7 @@ DataStructure01/CMakeFiles/DataStructure01-1.vector.dir/clean:
 ModelTest/CMakeFiles/modelTest-test2-2.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f ModelTest\CMakeFiles\modelTest-test2-2.c.dir\build.make ModelTest/CMakeFiles/modelTest-test2-2.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f ModelTest\CMakeFiles\modelTest-test2-2.c.dir\build.make ModelTest/CMakeFiles/modelTest-test2-2.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=58,59 "Built target modelTest-test2-2.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=68,69 "Built target modelTest-test2-2.c"
 .PHONY : ModelTest/CMakeFiles/modelTest-test2-2.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -653,7 +798,7 @@ ModelTest/CMakeFiles/modelTest-test2-2.c.dir/clean:
 ModelTest/CMakeFiles/modelTest-test1-1.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f ModelTest\CMakeFiles\modelTest-test1-1.c.dir\build.make ModelTest/CMakeFiles/modelTest-test1-1.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f ModelTest\CMakeFiles\modelTest-test1-1.c.dir\build.make ModelTest/CMakeFiles/modelTest-test1-1.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=52,53 "Built target modelTest-test1-1.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=62,63 "Built target modelTest-test1-1.c"
 .PHONY : ModelTest/CMakeFiles/modelTest-test1-1.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -680,7 +825,7 @@ ModelTest/CMakeFiles/modelTest-test1-1.c.dir/clean:
 ModelTest/CMakeFiles/modelTest-test2-1.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f ModelTest\CMakeFiles\modelTest-test2-1.c.dir\build.make ModelTest/CMakeFiles/modelTest-test2-1.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f ModelTest\CMakeFiles\modelTest-test2-1.c.dir\build.make ModelTest/CMakeFiles/modelTest-test2-1.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=56,57 "Built target modelTest-test2-1.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=66,67 "Built target modelTest-test2-1.c"
 .PHONY : ModelTest/CMakeFiles/modelTest-test2-1.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -707,7 +852,7 @@ ModelTest/CMakeFiles/modelTest-test2-1.c.dir/clean:
 ModelTest/CMakeFiles/modelTest-test1-2.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f ModelTest\CMakeFiles\modelTest-test1-2.c.dir\build.make ModelTest/CMakeFiles/modelTest-test1-2.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f ModelTest\CMakeFiles\modelTest-test1-2.c.dir\build.make ModelTest/CMakeFiles/modelTest-test1-2.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=54,55 "Built target modelTest-test1-2.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=64,65 "Built target modelTest-test1-2.c"
 .PHONY : ModelTest/CMakeFiles/modelTest-test1-2.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -734,7 +879,7 @@ ModelTest/CMakeFiles/modelTest-test1-2.c.dir/clean:
 ModelTest/CMakeFiles/modelTest-test3-1.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f ModelTest\CMakeFiles\modelTest-test3-1.c.dir\build.make ModelTest/CMakeFiles/modelTest-test3-1.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f ModelTest\CMakeFiles\modelTest-test3-1.c.dir\build.make ModelTest/CMakeFiles/modelTest-test3-1.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=60,61 "Built target modelTest-test3-1.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=70,71 "Built target modelTest-test3-1.c"
 .PHONY : ModelTest/CMakeFiles/modelTest-test3-1.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -761,7 +906,7 @@ ModelTest/CMakeFiles/modelTest-test3-1.c.dir/clean:
 ModelTest/CMakeFiles/modelTest-test3-2.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f ModelTest\CMakeFiles\modelTest-test3-2.c.dir\build.make ModelTest/CMakeFiles/modelTest-test3-2.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f ModelTest\CMakeFiles\modelTest-test3-2.c.dir\build.make ModelTest/CMakeFiles/modelTest-test3-2.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=62,63 "Built target modelTest-test3-2.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=72,73 "Built target modelTest-test3-2.c"
 .PHONY : ModelTest/CMakeFiles/modelTest-test3-2.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -788,7 +933,7 @@ ModelTest/CMakeFiles/modelTest-test3-2.c.dir/clean:
 ModelTest/CMakeFiles/modelTest-test4-1.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f ModelTest\CMakeFiles\modelTest-test4-1.c.dir\build.make ModelTest/CMakeFiles/modelTest-test4-1.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f ModelTest\CMakeFiles\modelTest-test4-1.c.dir\build.make ModelTest/CMakeFiles/modelTest-test4-1.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=64,65 "Built target modelTest-test4-1.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=74,75 "Built target modelTest-test4-1.c"
 .PHONY : ModelTest/CMakeFiles/modelTest-test4-1.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -815,7 +960,7 @@ ModelTest/CMakeFiles/modelTest-test4-1.c.dir/clean:
 ModelTest/CMakeFiles/modelTest-test4-2.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f ModelTest\CMakeFiles\modelTest-test4-2.c.dir\build.make ModelTest/CMakeFiles/modelTest-test4-2.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f ModelTest\CMakeFiles\modelTest-test4-2.c.dir\build.make ModelTest/CMakeFiles/modelTest-test4-2.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=66,67 "Built target modelTest-test4-2.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=76,77 "Built target modelTest-test4-2.c"
 .PHONY : ModelTest/CMakeFiles/modelTest-test4-2.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -842,7 +987,7 @@ ModelTest/CMakeFiles/modelTest-test4-2.c.dir/clean:
 ModelTest/CMakeFiles/modelTest-test5-1.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f ModelTest\CMakeFiles\modelTest-test5-1.c.dir\build.make ModelTest/CMakeFiles/modelTest-test5-1.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f ModelTest\CMakeFiles\modelTest-test5-1.c.dir\build.make ModelTest/CMakeFiles/modelTest-test5-1.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=68,69 "Built target modelTest-test5-1.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=78,79 "Built target modelTest-test5-1.c"
 .PHONY : ModelTest/CMakeFiles/modelTest-test5-1.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -869,7 +1014,7 @@ ModelTest/CMakeFiles/modelTest-test5-1.c.dir/clean:
 ModelTest/CMakeFiles/modelTest-test5-2.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f ModelTest\CMakeFiles\modelTest-test5-2.c.dir\build.make ModelTest/CMakeFiles/modelTest-test5-2.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f ModelTest\CMakeFiles\modelTest-test5-2.c.dir\build.make ModelTest/CMakeFiles/modelTest-test5-2.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=70,71 "Built target modelTest-test5-2.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=80,81 "Built target modelTest-test5-2.c"
 .PHONY : ModelTest/CMakeFiles/modelTest-test5-2.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -896,7 +1041,7 @@ ModelTest/CMakeFiles/modelTest-test5-2.c.dir/clean:
 ModelTest/CMakeFiles/modelTest-test6-1.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f ModelTest\CMakeFiles\modelTest-test6-1.c.dir\build.make ModelTest/CMakeFiles/modelTest-test6-1.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f ModelTest\CMakeFiles\modelTest-test6-1.c.dir\build.make ModelTest/CMakeFiles/modelTest-test6-1.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=72,73 "Built target modelTest-test6-1.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=82,83 "Built target modelTest-test6-1.c"
 .PHONY : ModelTest/CMakeFiles/modelTest-test6-1.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -923,7 +1068,7 @@ ModelTest/CMakeFiles/modelTest-test6-1.c.dir/clean:
 ModelTest/CMakeFiles/modelTest-test6-2.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f ModelTest\CMakeFiles\modelTest-test6-2.c.dir\build.make ModelTest/CMakeFiles/modelTest-test6-2.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f ModelTest\CMakeFiles\modelTest-test6-2.c.dir\build.make ModelTest/CMakeFiles/modelTest-test6-2.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=74,75 "Built target modelTest-test6-2.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=84,85 "Built target modelTest-test6-2.c"
 .PHONY : ModelTest/CMakeFiles/modelTest-test6-2.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -950,7 +1095,7 @@ ModelTest/CMakeFiles/modelTest-test6-2.c.dir/clean:
 exercise/CMakeFiles/exercise1.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise1.cpp.dir\build.make exercise/CMakeFiles/exercise1.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise1.cpp.dir\build.make exercise/CMakeFiles/exercise1.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=42,43 "Built target exercise1.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=52,53 "Built target exercise1.cpp"
 .PHONY : exercise/CMakeFiles/exercise1.cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -977,7 +1122,7 @@ exercise/CMakeFiles/exercise1.cpp.dir/clean:
 exercise/CMakeFiles/exercise-function.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise-function.c.dir\build.make exercise/CMakeFiles/exercise-function.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise-function.c.dir\build.make exercise/CMakeFiles/exercise-function.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=33,34,35,36,37 "Built target exercise-function.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=43,44,45,46,47 "Built target exercise-function.c"
 .PHONY : exercise/CMakeFiles/exercise-function.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1004,7 +1149,7 @@ exercise/CMakeFiles/exercise-function.c.dir/clean:
 exercise/CMakeFiles/exercise-array.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise-array.c.dir\build.make exercise/CMakeFiles/exercise-array.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise-array.c.dir\build.make exercise/CMakeFiles/exercise-array.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target exercise-array.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target exercise-array.c"
 .PHONY : exercise/CMakeFiles/exercise-array.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1031,7 +1176,7 @@ exercise/CMakeFiles/exercise-array.c.dir/clean:
 exercise/CMakeFiles/exercise2.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise2.c.dir\build.make exercise/CMakeFiles/exercise2.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise2.c.dir\build.make exercise/CMakeFiles/exercise2.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=44,45 "Built target exercise2.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=54,55 "Built target exercise2.c"
 .PHONY : exercise/CMakeFiles/exercise2.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1058,7 +1203,7 @@ exercise/CMakeFiles/exercise2.c.dir/clean:
 exercise/CMakeFiles/exercise-function-file1.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise-function-file1.c.dir\build.make exercise/CMakeFiles/exercise-function-file1.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise-function-file1.c.dir\build.make exercise/CMakeFiles/exercise-function-file1.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target exercise-function-file1.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target exercise-function-file1.c"
 .PHONY : exercise/CMakeFiles/exercise-function-file1.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1085,7 +1230,7 @@ exercise/CMakeFiles/exercise-function-file1.c.dir/clean:
 exercise/CMakeFiles/exercise-case-structure.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise-case-structure.c.dir\build.make exercise/CMakeFiles/exercise-case-structure.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise-case-structure.c.dir\build.make exercise/CMakeFiles/exercise-case-structure.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target exercise-case-structure.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target exercise-case-structure.c"
 .PHONY : exercise/CMakeFiles/exercise-case-structure.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1112,7 +1257,7 @@ exercise/CMakeFiles/exercise-case-structure.c.dir/clean:
 exercise/CMakeFiles/exercise-leap.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise-leap.c.dir\build.make exercise/CMakeFiles/exercise-leap.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise-leap.c.dir\build.make exercise/CMakeFiles/exercise-leap.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=38,39 "Built target exercise-leap.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=48,49 "Built target exercise-leap.c"
 .PHONY : exercise/CMakeFiles/exercise-leap.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1139,7 +1284,7 @@ exercise/CMakeFiles/exercise-leap.c.dir/clean:
 exercise/CMakeFiles/exercise-circulation.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise-circulation.c.dir\build.make exercise/CMakeFiles/exercise-circulation.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise-circulation.c.dir\build.make exercise/CMakeFiles/exercise-circulation.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target exercise-circulation.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target exercise-circulation.c"
 .PHONY : exercise/CMakeFiles/exercise-circulation.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1166,7 +1311,7 @@ exercise/CMakeFiles/exercise-circulation.c.dir/clean:
 exercise/CMakeFiles/exercise-function-file2.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise-function-file2.c.dir\build.make exercise/CMakeFiles/exercise-function-file2.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise-function-file2.c.dir\build.make exercise/CMakeFiles/exercise-function-file2.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target exercise-function-file2.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target exercise-function-file2.c"
 .PHONY : exercise/CMakeFiles/exercise-function-file2.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1193,7 +1338,7 @@ exercise/CMakeFiles/exercise-function-file2.c.dir/clean:
 exercise/CMakeFiles/exercise-function-file3.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise-function-file3.c.dir\build.make exercise/CMakeFiles/exercise-function-file3.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise-function-file3.c.dir\build.make exercise/CMakeFiles/exercise-function-file3.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target exercise-function-file3.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=41,42 "Built target exercise-function-file3.c"
 .PHONY : exercise/CMakeFiles/exercise-function-file3.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1220,7 +1365,7 @@ exercise/CMakeFiles/exercise-function-file3.c.dir/clean:
 exercise/CMakeFiles/exercise-pointer.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise-pointer.c.dir\build.make exercise/CMakeFiles/exercise-pointer.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f exercise\CMakeFiles\exercise-pointer.c.dir\build.make exercise/CMakeFiles/exercise-pointer.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=40,41 "Built target exercise-pointer.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug\CMakeFiles --progress-num=50,51 "Built target exercise-pointer.c"
 .PHONY : exercise/CMakeFiles/exercise-pointer.c.dir/all
 
 # Build rule for subdir invocation for target.

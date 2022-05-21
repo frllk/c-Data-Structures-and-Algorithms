@@ -129,19 +129,94 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-DataStructure01/CMakeFiles/DataStructure01-1.vector.dir/rule:
-	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStructure01/CMakeFiles/DataStructure01-1.vector.dir/rule
-.PHONY : DataStructure01/CMakeFiles/DataStructure01-1.vector.dir/rule
+DataStructure01/CMakeFiles/ds-1.vector.dir/rule:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStructure01/CMakeFiles/ds-1.vector.dir/rule
+.PHONY : DataStructure01/CMakeFiles/ds-1.vector.dir/rule
 
 # Convenience name for target.
-DataStructure01-1.vector: DataStructure01/CMakeFiles/DataStructure01-1.vector.dir/rule
+ds-1.vector: DataStructure01/CMakeFiles/ds-1.vector.dir/rule
 
-.PHONY : DataStructure01-1.vector
+.PHONY : ds-1.vector
 
 # fast build rule for target.
-DataStructure01-1.vector/fast:
-	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\DataStructure01-1.vector.dir\build.make DataStructure01/CMakeFiles/DataStructure01-1.vector.dir/build
-.PHONY : DataStructure01-1.vector/fast
+ds-1.vector/fast:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-1.vector.dir\build.make DataStructure01/CMakeFiles/ds-1.vector.dir/build
+.PHONY : ds-1.vector/fast
+
+# Convenience name for target.
+DataStructure01/CMakeFiles/ds-time.c.dir/rule:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStructure01/CMakeFiles/ds-time.c.dir/rule
+.PHONY : DataStructure01/CMakeFiles/ds-time.c.dir/rule
+
+# Convenience name for target.
+ds-time.c: DataStructure01/CMakeFiles/ds-time.c.dir/rule
+
+.PHONY : ds-time.c
+
+# fast build rule for target.
+ds-time.c/fast:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-time.c.dir\build.make DataStructure01/CMakeFiles/ds-time.c.dir/build
+.PHONY : ds-time.c/fast
+
+# Convenience name for target.
+DataStructure01/CMakeFiles/ds-euler-1.c.dir/rule:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStructure01/CMakeFiles/ds-euler-1.c.dir/rule
+.PHONY : DataStructure01/CMakeFiles/ds-euler-1.c.dir/rule
+
+# Convenience name for target.
+ds-euler-1.c: DataStructure01/CMakeFiles/ds-euler-1.c.dir/rule
+
+.PHONY : ds-euler-1.c
+
+# fast build rule for target.
+ds-euler-1.c/fast:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-euler-1.c.dir\build.make DataStructure01/CMakeFiles/ds-euler-1.c.dir/build
+.PHONY : ds-euler-1.c/fast
+
+# Convenience name for target.
+DataStructure01/CMakeFiles/ds-euler-2.c.dir/rule:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStructure01/CMakeFiles/ds-euler-2.c.dir/rule
+.PHONY : DataStructure01/CMakeFiles/ds-euler-2.c.dir/rule
+
+# Convenience name for target.
+ds-euler-2.c: DataStructure01/CMakeFiles/ds-euler-2.c.dir/rule
+
+.PHONY : ds-euler-2.c
+
+# fast build rule for target.
+ds-euler-2.c/fast:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-euler-2.c.dir\build.make DataStructure01/CMakeFiles/ds-euler-2.c.dir/build
+.PHONY : ds-euler-2.c/fast
+
+# Convenience name for target.
+DataStructure01/CMakeFiles/ds-euler-4.c.dir/rule:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStructure01/CMakeFiles/ds-euler-4.c.dir/rule
+.PHONY : DataStructure01/CMakeFiles/ds-euler-4.c.dir/rule
+
+# Convenience name for target.
+ds-euler-4.c: DataStructure01/CMakeFiles/ds-euler-4.c.dir/rule
+
+.PHONY : ds-euler-4.c
+
+# fast build rule for target.
+ds-euler-4.c/fast:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-euler-4.c.dir\build.make DataStructure01/CMakeFiles/ds-euler-4.c.dir/build
+.PHONY : ds-euler-4.c/fast
+
+# Convenience name for target.
+DataStructure01/CMakeFiles/ds-euler-8.c.dir/rule:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStructure01/CMakeFiles/ds-euler-8.c.dir/rule
+.PHONY : DataStructure01/CMakeFiles/ds-euler-8.c.dir/rule
+
+# Convenience name for target.
+ds-euler-8.c: DataStructure01/CMakeFiles/ds-euler-8.c.dir/rule
+
+.PHONY : ds-euler-8.c
+
+# fast build rule for target.
+ds-euler-8.c/fast:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-euler-8.c.dir\build.make DataStructure01/CMakeFiles/ds-euler-8.c.dir/build
+.PHONY : ds-euler-8.c/fast
 
 1.vector.obj: 1.vector.c.obj
 
@@ -149,7 +224,7 @@ DataStructure01-1.vector/fast:
 
 # target to build an object file
 1.vector.c.obj:
-	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\DataStructure01-1.vector.dir\build.make DataStructure01/CMakeFiles/DataStructure01-1.vector.dir/1.vector.c.obj
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-1.vector.dir\build.make DataStructure01/CMakeFiles/ds-1.vector.dir/1.vector.c.obj
 .PHONY : 1.vector.c.obj
 
 1.vector.i: 1.vector.c.i
@@ -158,7 +233,7 @@ DataStructure01-1.vector/fast:
 
 # target to preprocess a source file
 1.vector.c.i:
-	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\DataStructure01-1.vector.dir\build.make DataStructure01/CMakeFiles/DataStructure01-1.vector.dir/1.vector.c.i
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-1.vector.dir\build.make DataStructure01/CMakeFiles/ds-1.vector.dir/1.vector.c.i
 .PHONY : 1.vector.c.i
 
 1.vector.s: 1.vector.c.s
@@ -167,8 +242,143 @@ DataStructure01-1.vector/fast:
 
 # target to generate assembly for a file
 1.vector.c.s:
-	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\DataStructure01-1.vector.dir\build.make DataStructure01/CMakeFiles/DataStructure01-1.vector.dir/1.vector.c.s
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-1.vector.dir\build.make DataStructure01/CMakeFiles/ds-1.vector.dir/1.vector.c.s
 .PHONY : 1.vector.c.s
+
+euler-1.obj: euler-1.c.obj
+
+.PHONY : euler-1.obj
+
+# target to build an object file
+euler-1.c.obj:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-euler-1.c.dir\build.make DataStructure01/CMakeFiles/ds-euler-1.c.dir/euler-1.c.obj
+.PHONY : euler-1.c.obj
+
+euler-1.i: euler-1.c.i
+
+.PHONY : euler-1.i
+
+# target to preprocess a source file
+euler-1.c.i:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-euler-1.c.dir\build.make DataStructure01/CMakeFiles/ds-euler-1.c.dir/euler-1.c.i
+.PHONY : euler-1.c.i
+
+euler-1.s: euler-1.c.s
+
+.PHONY : euler-1.s
+
+# target to generate assembly for a file
+euler-1.c.s:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-euler-1.c.dir\build.make DataStructure01/CMakeFiles/ds-euler-1.c.dir/euler-1.c.s
+.PHONY : euler-1.c.s
+
+euler-2.obj: euler-2.c.obj
+
+.PHONY : euler-2.obj
+
+# target to build an object file
+euler-2.c.obj:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-euler-2.c.dir\build.make DataStructure01/CMakeFiles/ds-euler-2.c.dir/euler-2.c.obj
+.PHONY : euler-2.c.obj
+
+euler-2.i: euler-2.c.i
+
+.PHONY : euler-2.i
+
+# target to preprocess a source file
+euler-2.c.i:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-euler-2.c.dir\build.make DataStructure01/CMakeFiles/ds-euler-2.c.dir/euler-2.c.i
+.PHONY : euler-2.c.i
+
+euler-2.s: euler-2.c.s
+
+.PHONY : euler-2.s
+
+# target to generate assembly for a file
+euler-2.c.s:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-euler-2.c.dir\build.make DataStructure01/CMakeFiles/ds-euler-2.c.dir/euler-2.c.s
+.PHONY : euler-2.c.s
+
+euler-4.obj: euler-4.c.obj
+
+.PHONY : euler-4.obj
+
+# target to build an object file
+euler-4.c.obj:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-euler-4.c.dir\build.make DataStructure01/CMakeFiles/ds-euler-4.c.dir/euler-4.c.obj
+.PHONY : euler-4.c.obj
+
+euler-4.i: euler-4.c.i
+
+.PHONY : euler-4.i
+
+# target to preprocess a source file
+euler-4.c.i:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-euler-4.c.dir\build.make DataStructure01/CMakeFiles/ds-euler-4.c.dir/euler-4.c.i
+.PHONY : euler-4.c.i
+
+euler-4.s: euler-4.c.s
+
+.PHONY : euler-4.s
+
+# target to generate assembly for a file
+euler-4.c.s:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-euler-4.c.dir\build.make DataStructure01/CMakeFiles/ds-euler-4.c.dir/euler-4.c.s
+.PHONY : euler-4.c.s
+
+euler-8.obj: euler-8.c.obj
+
+.PHONY : euler-8.obj
+
+# target to build an object file
+euler-8.c.obj:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-euler-8.c.dir\build.make DataStructure01/CMakeFiles/ds-euler-8.c.dir/euler-8.c.obj
+.PHONY : euler-8.c.obj
+
+euler-8.i: euler-8.c.i
+
+.PHONY : euler-8.i
+
+# target to preprocess a source file
+euler-8.c.i:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-euler-8.c.dir\build.make DataStructure01/CMakeFiles/ds-euler-8.c.dir/euler-8.c.i
+.PHONY : euler-8.c.i
+
+euler-8.s: euler-8.c.s
+
+.PHONY : euler-8.s
+
+# target to generate assembly for a file
+euler-8.c.s:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-euler-8.c.dir\build.make DataStructure01/CMakeFiles/ds-euler-8.c.dir/euler-8.c.s
+.PHONY : euler-8.c.s
+
+time.obj: time.c.obj
+
+.PHONY : time.obj
+
+# target to build an object file
+time.c.obj:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-time.c.dir\build.make DataStructure01/CMakeFiles/ds-time.c.dir/time.c.obj
+.PHONY : time.c.obj
+
+time.i: time.c.i
+
+.PHONY : time.i
+
+# target to preprocess a source file
+time.c.i:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-time.c.dir\build.make DataStructure01/CMakeFiles/ds-time.c.dir/time.c.i
+.PHONY : time.c.i
+
+time.s: time.c.s
+
+.PHONY : time.s
+
+# target to generate assembly for a file
+time.c.s:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-time.c.dir\build.make DataStructure01/CMakeFiles/ds-time.c.dir/time.c.s
+.PHONY : time.c.s
 
 # Help Target
 help:
@@ -178,10 +388,30 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... DataStructure01-1.vector
+	@echo ... ds-1.vector
+	@echo ... ds-euler-1.c
+	@echo ... ds-euler-2.c
+	@echo ... ds-euler-4.c
+	@echo ... ds-euler-8.c
+	@echo ... ds-time.c
 	@echo ... 1.vector.obj
 	@echo ... 1.vector.i
 	@echo ... 1.vector.s
+	@echo ... euler-1.obj
+	@echo ... euler-1.i
+	@echo ... euler-1.s
+	@echo ... euler-2.obj
+	@echo ... euler-2.i
+	@echo ... euler-2.s
+	@echo ... euler-4.obj
+	@echo ... euler-4.i
+	@echo ... euler-4.s
+	@echo ... euler-8.obj
+	@echo ... euler-8.i
+	@echo ... euler-8.s
+	@echo ... time.obj
+	@echo ... time.i
+	@echo ... time.s
 .PHONY : help
 
 

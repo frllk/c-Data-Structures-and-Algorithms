@@ -285,17 +285,82 @@ list-3.linklist/fast:
 .PHONY : 1.c/fast
 
 #=============================================================================
-# Target rules for targets named DataStructure01-1.vector
+# Target rules for targets named ds-1.vector
 
 # Build rule for target.
-DataStructure01-1.vector: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStructure01-1.vector
-.PHONY : DataStructure01-1.vector
+ds-1.vector: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ds-1.vector
+.PHONY : ds-1.vector
 
 # fast build rule for target.
-DataStructure01-1.vector/fast:
-	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\DataStructure01-1.vector.dir\build.make DataStructure01/CMakeFiles/DataStructure01-1.vector.dir/build
-.PHONY : DataStructure01-1.vector/fast
+ds-1.vector/fast:
+	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-1.vector.dir\build.make DataStructure01/CMakeFiles/ds-1.vector.dir/build
+.PHONY : ds-1.vector/fast
+
+#=============================================================================
+# Target rules for targets named ds-time.c
+
+# Build rule for target.
+ds-time.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ds-time.c
+.PHONY : ds-time.c
+
+# fast build rule for target.
+ds-time.c/fast:
+	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-time.c.dir\build.make DataStructure01/CMakeFiles/ds-time.c.dir/build
+.PHONY : ds-time.c/fast
+
+#=============================================================================
+# Target rules for targets named ds-euler-1.c
+
+# Build rule for target.
+ds-euler-1.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ds-euler-1.c
+.PHONY : ds-euler-1.c
+
+# fast build rule for target.
+ds-euler-1.c/fast:
+	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-euler-1.c.dir\build.make DataStructure01/CMakeFiles/ds-euler-1.c.dir/build
+.PHONY : ds-euler-1.c/fast
+
+#=============================================================================
+# Target rules for targets named ds-euler-2.c
+
+# Build rule for target.
+ds-euler-2.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ds-euler-2.c
+.PHONY : ds-euler-2.c
+
+# fast build rule for target.
+ds-euler-2.c/fast:
+	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-euler-2.c.dir\build.make DataStructure01/CMakeFiles/ds-euler-2.c.dir/build
+.PHONY : ds-euler-2.c/fast
+
+#=============================================================================
+# Target rules for targets named ds-euler-4.c
+
+# Build rule for target.
+ds-euler-4.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ds-euler-4.c
+.PHONY : ds-euler-4.c
+
+# fast build rule for target.
+ds-euler-4.c/fast:
+	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-euler-4.c.dir\build.make DataStructure01/CMakeFiles/ds-euler-4.c.dir/build
+.PHONY : ds-euler-4.c/fast
+
+#=============================================================================
+# Target rules for targets named ds-euler-8.c
+
+# Build rule for target.
+ds-euler-8.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ds-euler-8.c
+.PHONY : ds-euler-8.c
+
+# fast build rule for target.
+ds-euler-8.c/fast:
+	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-euler-8.c.dir\build.make DataStructure01/CMakeFiles/ds-euler-8.c.dir/build
+.PHONY : ds-euler-8.c/fast
 
 #=============================================================================
 # Target rules for targets named modelTest-test2-2.c
@@ -606,7 +671,6 @@ help:
 	@echo ... rebuild_cache
 	@echo ... 1.c
 	@echo ... 2.test.c
-	@echo ... DataStructure01-1.vector
 	@echo ... base-1.test.c
 	@echo ... base-1.test.cpp
 	@echo ... base-3.test.c
@@ -614,6 +678,12 @@ help:
 	@echo ... base-5.test.c
 	@echo ... base-6.test.c
 	@echo ... base-7.test.c
+	@echo ... ds-1.vector
+	@echo ... ds-euler-1.c
+	@echo ... ds-euler-2.c
+	@echo ... ds-euler-4.c
+	@echo ... ds-euler-8.c
+	@echo ... ds-time.c
 	@echo ... exercise-array.c
 	@echo ... exercise-case-structure.c
 	@echo ... exercise-circulation.c
