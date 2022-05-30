@@ -350,6 +350,19 @@ ds-euler-2.c/fast:
 .PHONY : ds-euler-2.c/fast
 
 #=============================================================================
+# Target rules for targets named ds.list
+
+# Build rule for target.
+ds.list: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ds.list
+.PHONY : ds.list
+
+# fast build rule for target.
+ds.list/fast:
+	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds.list.dir\build.make DataStructure01/CMakeFiles/ds.list.dir/build
+.PHONY : ds.list/fast
+
+#=============================================================================
 # Target rules for targets named ds-euler-4.c
 
 # Build rule for target.
@@ -697,6 +710,7 @@ help:
 	@echo ... ds-euler-4.c
 	@echo ... ds-euler-8.c
 	@echo ... ds-time.c
+	@echo ... ds.list
 	@echo ... ds.vector
 	@echo ... exercise-array.c
 	@echo ... exercise-case-structure.c

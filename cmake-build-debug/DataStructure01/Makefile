@@ -204,6 +204,21 @@ ds-euler-2.c/fast:
 .PHONY : ds-euler-2.c/fast
 
 # Convenience name for target.
+DataStructure01/CMakeFiles/ds.list.dir/rule:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStructure01/CMakeFiles/ds.list.dir/rule
+.PHONY : DataStructure01/CMakeFiles/ds.list.dir/rule
+
+# Convenience name for target.
+ds.list: DataStructure01/CMakeFiles/ds.list.dir/rule
+
+.PHONY : ds.list
+
+# fast build rule for target.
+ds.list/fast:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds.list.dir\build.make DataStructure01/CMakeFiles/ds.list.dir/build
+.PHONY : ds.list/fast
+
+# Convenience name for target.
 DataStructure01/CMakeFiles/ds-euler-4.c.dir/rule:
 	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStructure01/CMakeFiles/ds-euler-4.c.dir/rule
 .PHONY : DataStructure01/CMakeFiles/ds-euler-4.c.dir/rule
@@ -368,6 +383,33 @@ euler-8.c.s:
 	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-euler-8.c.dir\build.make DataStructure01/CMakeFiles/ds-euler-8.c.dir/euler-8.c.s
 .PHONY : euler-8.c.s
 
+list.obj: list.c.obj
+
+.PHONY : list.obj
+
+# target to build an object file
+list.c.obj:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds.list.dir\build.make DataStructure01/CMakeFiles/ds.list.dir/list.c.obj
+.PHONY : list.c.obj
+
+list.i: list.c.i
+
+.PHONY : list.i
+
+# target to preprocess a source file
+list.c.i:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds.list.dir\build.make DataStructure01/CMakeFiles/ds.list.dir/list.c.i
+.PHONY : list.c.i
+
+list.s: list.c.s
+
+.PHONY : list.s
+
+# target to generate assembly for a file
+list.c.s:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds.list.dir\build.make DataStructure01/CMakeFiles/ds.list.dir/list.c.s
+.PHONY : list.c.s
+
 time.obj: time.c.obj
 
 .PHONY : time.obj
@@ -436,6 +478,7 @@ help:
 	@echo ... ds-euler-4.c
 	@echo ... ds-euler-8.c
 	@echo ... ds-time.c
+	@echo ... ds.list
 	@echo ... ds.vector
 	@echo ... 1.vector.obj
 	@echo ... 1.vector.i
@@ -452,6 +495,9 @@ help:
 	@echo ... euler-8.obj
 	@echo ... euler-8.i
 	@echo ... euler-8.s
+	@echo ... list.obj
+	@echo ... list.i
+	@echo ... list.s
 	@echo ... time.obj
 	@echo ... time.i
 	@echo ... time.s
