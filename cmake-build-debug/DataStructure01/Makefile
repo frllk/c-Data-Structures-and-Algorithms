@@ -159,6 +159,21 @@ ds-time.c/fast:
 .PHONY : ds-time.c/fast
 
 # Convenience name for target.
+DataStructure01/CMakeFiles/ds.vector.dir/rule:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStructure01/CMakeFiles/ds.vector.dir/rule
+.PHONY : DataStructure01/CMakeFiles/ds.vector.dir/rule
+
+# Convenience name for target.
+ds.vector: DataStructure01/CMakeFiles/ds.vector.dir/rule
+
+.PHONY : ds.vector
+
+# fast build rule for target.
+ds.vector/fast:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds.vector.dir\build.make DataStructure01/CMakeFiles/ds.vector.dir/build
+.PHONY : ds.vector/fast
+
+# Convenience name for target.
 DataStructure01/CMakeFiles/ds-euler-1.c.dir/rule:
 	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStructure01/CMakeFiles/ds-euler-1.c.dir/rule
 .PHONY : DataStructure01/CMakeFiles/ds-euler-1.c.dir/rule
@@ -380,6 +395,33 @@ time.c.s:
 	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-time.c.dir\build.make DataStructure01/CMakeFiles/ds-time.c.dir/time.c.s
 .PHONY : time.c.s
 
+vector.obj: vector.c.obj
+
+.PHONY : vector.obj
+
+# target to build an object file
+vector.c.obj:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds.vector.dir\build.make DataStructure01/CMakeFiles/ds.vector.dir/vector.c.obj
+.PHONY : vector.c.obj
+
+vector.i: vector.c.i
+
+.PHONY : vector.i
+
+# target to preprocess a source file
+vector.c.i:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds.vector.dir\build.make DataStructure01/CMakeFiles/ds.vector.dir/vector.c.i
+.PHONY : vector.c.i
+
+vector.s: vector.c.s
+
+.PHONY : vector.s
+
+# target to generate assembly for a file
+vector.c.s:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds.vector.dir\build.make DataStructure01/CMakeFiles/ds.vector.dir/vector.c.s
+.PHONY : vector.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -394,6 +436,7 @@ help:
 	@echo ... ds-euler-4.c
 	@echo ... ds-euler-8.c
 	@echo ... ds-time.c
+	@echo ... ds.vector
 	@echo ... 1.vector.obj
 	@echo ... 1.vector.i
 	@echo ... 1.vector.s
@@ -412,6 +455,9 @@ help:
 	@echo ... time.obj
 	@echo ... time.i
 	@echo ... time.s
+	@echo ... vector.obj
+	@echo ... vector.i
+	@echo ... vector.s
 .PHONY : help
 
 

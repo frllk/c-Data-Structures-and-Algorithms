@@ -311,6 +311,19 @@ ds-time.c/fast:
 .PHONY : ds-time.c/fast
 
 #=============================================================================
+# Target rules for targets named ds.vector
+
+# Build rule for target.
+ds.vector: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ds.vector
+.PHONY : ds.vector
+
+# fast build rule for target.
+ds.vector/fast:
+	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds.vector.dir\build.make DataStructure01/CMakeFiles/ds.vector.dir/build
+.PHONY : ds.vector/fast
+
+#=============================================================================
 # Target rules for targets named ds-euler-1.c
 
 # Build rule for target.
@@ -684,6 +697,7 @@ help:
 	@echo ... ds-euler-4.c
 	@echo ... ds-euler-8.c
 	@echo ... ds-time.c
+	@echo ... ds.vector
 	@echo ... exercise-array.c
 	@echo ... exercise-case-structure.c
 	@echo ... exercise-circulation.c

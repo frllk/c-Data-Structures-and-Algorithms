@@ -41,6 +41,19 @@ int main() {
             ans = now;
         }
     }
-    printf("%lld\n", ans); // %lld
+//    %d 输出的是 int,
+//    %ld 输出的是 long,
+//    %lld 输出的是 long long;
+//
+//    32位编译器：
+//    int 4字节
+//    long 4字节
+//    long long 8字节
+//
+//    64位编译器:
+//    int 4字节
+//    long 8字节
+//    long long 8字节
+    printf("%lld\n", ans); // %lld   %d=int, %ld=long, %lld=long long;
     return 0;
 }
