@@ -389,6 +389,32 @@ ds-euler-8.c/fast:
 .PHONY : ds-euler-8.c/fast
 
 #=============================================================================
+# Target rules for targets named ds.stack
+
+# Build rule for target.
+ds.stack: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ds.stack
+.PHONY : ds.stack
+
+# fast build rule for target.
+ds.stack/fast:
+	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds.stack.dir\build.make DataStructure01/CMakeFiles/ds.stack.dir/build
+.PHONY : ds.stack/fast
+
+#=============================================================================
+# Target rules for targets named ds.stack_list
+
+# Build rule for target.
+ds.stack_list: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ds.stack_list
+.PHONY : ds.stack_list
+
+# fast build rule for target.
+ds.stack_list/fast:
+	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds.stack_list.dir\build.make DataStructure01/CMakeFiles/ds.stack_list.dir/build
+.PHONY : ds.stack_list/fast
+
+#=============================================================================
 # Target rules for targets named modelTest-test2-2.c
 
 # Build rule for target.
@@ -711,6 +737,8 @@ help:
 	@echo ... ds-euler-8.c
 	@echo ... ds-time.c
 	@echo ... ds.list
+	@echo ... ds.stack
+	@echo ... ds.stack_list
 	@echo ... ds.vector
 	@echo ... exercise-array.c
 	@echo ... exercise-case-structure.c

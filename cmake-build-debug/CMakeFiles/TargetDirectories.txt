@@ -26,6 +26,8 @@ E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/Da
 E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/DataStructure01/CMakeFiles/ds.list.dir
 E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/DataStructure01/CMakeFiles/ds-euler-4.c.dir
 E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/DataStructure01/CMakeFiles/ds-euler-8.c.dir
+E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/DataStructure01/CMakeFiles/ds.stack.dir
+E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/DataStructure01/CMakeFiles/ds.stack_list.dir
 E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/DataStructure01/CMakeFiles/edit_cache.dir
 E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/DataStructure01/CMakeFiles/rebuild_cache.dir
 E:/BaiduNetdiskWorkspace/C/c-Data-Structures-and-Algorithms/cmake-build-debug/ModelTest/CMakeFiles/modelTest-test2-2.c.dir

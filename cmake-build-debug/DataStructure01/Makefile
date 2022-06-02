@@ -248,6 +248,36 @@ ds-euler-8.c/fast:
 	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds-euler-8.c.dir\build.make DataStructure01/CMakeFiles/ds-euler-8.c.dir/build
 .PHONY : ds-euler-8.c/fast
 
+# Convenience name for target.
+DataStructure01/CMakeFiles/ds.stack.dir/rule:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStructure01/CMakeFiles/ds.stack.dir/rule
+.PHONY : DataStructure01/CMakeFiles/ds.stack.dir/rule
+
+# Convenience name for target.
+ds.stack: DataStructure01/CMakeFiles/ds.stack.dir/rule
+
+.PHONY : ds.stack
+
+# fast build rule for target.
+ds.stack/fast:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds.stack.dir\build.make DataStructure01/CMakeFiles/ds.stack.dir/build
+.PHONY : ds.stack/fast
+
+# Convenience name for target.
+DataStructure01/CMakeFiles/ds.stack_list.dir/rule:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStructure01/CMakeFiles/ds.stack_list.dir/rule
+.PHONY : DataStructure01/CMakeFiles/ds.stack_list.dir/rule
+
+# Convenience name for target.
+ds.stack_list: DataStructure01/CMakeFiles/ds.stack_list.dir/rule
+
+.PHONY : ds.stack_list
+
+# fast build rule for target.
+ds.stack_list/fast:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds.stack_list.dir\build.make DataStructure01/CMakeFiles/ds.stack_list.dir/build
+.PHONY : ds.stack_list/fast
+
 1.vector.obj: 1.vector.c.obj
 
 .PHONY : 1.vector.obj
@@ -410,6 +440,60 @@ list.c.s:
 	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds.list.dir\build.make DataStructure01/CMakeFiles/ds.list.dir/list.c.s
 .PHONY : list.c.s
 
+stack.obj: stack.c.obj
+
+.PHONY : stack.obj
+
+# target to build an object file
+stack.c.obj:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds.stack.dir\build.make DataStructure01/CMakeFiles/ds.stack.dir/stack.c.obj
+.PHONY : stack.c.obj
+
+stack.i: stack.c.i
+
+.PHONY : stack.i
+
+# target to preprocess a source file
+stack.c.i:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds.stack.dir\build.make DataStructure01/CMakeFiles/ds.stack.dir/stack.c.i
+.PHONY : stack.c.i
+
+stack.s: stack.c.s
+
+.PHONY : stack.s
+
+# target to generate assembly for a file
+stack.c.s:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds.stack.dir\build.make DataStructure01/CMakeFiles/ds.stack.dir/stack.c.s
+.PHONY : stack.c.s
+
+stack_list.obj: stack_list.c.obj
+
+.PHONY : stack_list.obj
+
+# target to build an object file
+stack_list.c.obj:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds.stack_list.dir\build.make DataStructure01/CMakeFiles/ds.stack_list.dir/stack_list.c.obj
+.PHONY : stack_list.c.obj
+
+stack_list.i: stack_list.c.i
+
+.PHONY : stack_list.i
+
+# target to preprocess a source file
+stack_list.c.i:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds.stack_list.dir\build.make DataStructure01/CMakeFiles/ds.stack_list.dir/stack_list.c.i
+.PHONY : stack_list.c.i
+
+stack_list.s: stack_list.c.s
+
+.PHONY : stack_list.s
+
+# target to generate assembly for a file
+stack_list.c.s:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds.stack_list.dir\build.make DataStructure01/CMakeFiles/ds.stack_list.dir/stack_list.c.s
+.PHONY : stack_list.c.s
+
 time.obj: time.c.obj
 
 .PHONY : time.obj
@@ -479,6 +563,8 @@ help:
 	@echo ... ds-euler-8.c
 	@echo ... ds-time.c
 	@echo ... ds.list
+	@echo ... ds.stack
+	@echo ... ds.stack_list
 	@echo ... ds.vector
 	@echo ... 1.vector.obj
 	@echo ... 1.vector.i
@@ -498,6 +584,12 @@ help:
 	@echo ... list.obj
 	@echo ... list.i
 	@echo ... list.s
+	@echo ... stack.obj
+	@echo ... stack.i
+	@echo ... stack.s
+	@echo ... stack_list.obj
+	@echo ... stack_list.i
+	@echo ... stack_list.s
 	@echo ... time.obj
 	@echo ... time.i
 	@echo ... time.s
