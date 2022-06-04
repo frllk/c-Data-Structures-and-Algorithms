@@ -415,6 +415,19 @@ ds.stack_list/fast:
 .PHONY : ds.stack_list/fast
 
 #=============================================================================
+# Target rules for targets named ds.queue
+
+# Build rule for target.
+ds.queue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ds.queue
+.PHONY : ds.queue
+
+# fast build rule for target.
+ds.queue/fast:
+	$(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds.queue.dir\build.make DataStructure01/CMakeFiles/ds.queue.dir/build
+.PHONY : ds.queue/fast
+
+#=============================================================================
 # Target rules for targets named modelTest-test2-2.c
 
 # Build rule for target.
@@ -737,6 +750,7 @@ help:
 	@echo ... ds-euler-8.c
 	@echo ... ds-time.c
 	@echo ... ds.list
+	@echo ... ds.queue
 	@echo ... ds.stack
 	@echo ... ds.stack_list
 	@echo ... ds.vector

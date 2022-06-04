@@ -278,6 +278,21 @@ ds.stack_list/fast:
 	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds.stack_list.dir\build.make DataStructure01/CMakeFiles/ds.stack_list.dir/build
 .PHONY : ds.stack_list/fast
 
+# Convenience name for target.
+DataStructure01/CMakeFiles/ds.queue.dir/rule:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStructure01/CMakeFiles/ds.queue.dir/rule
+.PHONY : DataStructure01/CMakeFiles/ds.queue.dir/rule
+
+# Convenience name for target.
+ds.queue: DataStructure01/CMakeFiles/ds.queue.dir/rule
+
+.PHONY : ds.queue
+
+# fast build rule for target.
+ds.queue/fast:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds.queue.dir\build.make DataStructure01/CMakeFiles/ds.queue.dir/build
+.PHONY : ds.queue/fast
+
 1.vector.obj: 1.vector.c.obj
 
 .PHONY : 1.vector.obj
@@ -440,6 +455,33 @@ list.c.s:
 	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds.list.dir\build.make DataStructure01/CMakeFiles/ds.list.dir/list.c.s
 .PHONY : list.c.s
 
+queue.obj: queue.c.obj
+
+.PHONY : queue.obj
+
+# target to build an object file
+queue.c.obj:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds.queue.dir\build.make DataStructure01/CMakeFiles/ds.queue.dir/queue.c.obj
+.PHONY : queue.c.obj
+
+queue.i: queue.c.i
+
+.PHONY : queue.i
+
+# target to preprocess a source file
+queue.c.i:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds.queue.dir\build.make DataStructure01/CMakeFiles/ds.queue.dir/queue.c.i
+.PHONY : queue.c.i
+
+queue.s: queue.c.s
+
+.PHONY : queue.s
+
+# target to generate assembly for a file
+queue.c.s:
+	cd /d E:\BaiduNetdiskWorkspace\C\c-Data-Structures-and-Algorithms\cmake-build-debug && $(MAKE) $(MAKESILENT) -f DataStructure01\CMakeFiles\ds.queue.dir\build.make DataStructure01/CMakeFiles/ds.queue.dir/queue.c.s
+.PHONY : queue.c.s
+
 stack.obj: stack.c.obj
 
 .PHONY : stack.obj
@@ -563,6 +605,7 @@ help:
 	@echo ... ds-euler-8.c
 	@echo ... ds-time.c
 	@echo ... ds.list
+	@echo ... ds.queue
 	@echo ... ds.stack
 	@echo ... ds.stack_list
 	@echo ... ds.vector
@@ -584,6 +627,9 @@ help:
 	@echo ... list.obj
 	@echo ... list.i
 	@echo ... list.s
+	@echo ... queue.obj
+	@echo ... queue.i
+	@echo ... queue.s
 	@echo ... stack.obj
 	@echo ... stack.i
 	@echo ... stack.s

@@ -85,6 +85,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "DataStructure01/CMakeFiles/ds-euler-8.c.dir/DependInfo.cmake"
   "DataStructure01/CMakeFiles/ds.stack.dir/DependInfo.cmake"
   "DataStructure01/CMakeFiles/ds.stack_list.dir/DependInfo.cmake"
+  "DataStructure01/CMakeFiles/ds.queue.dir/DependInfo.cmake"
   "ModelTest/CMakeFiles/modelTest-test2-2.c.dir/DependInfo.cmake"
   "ModelTest/CMakeFiles/modelTest-test1-1.c.dir/DependInfo.cmake"
   "ModelTest/CMakeFiles/modelTest-test2-1.c.dir/DependInfo.cmake"
